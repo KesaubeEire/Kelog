@@ -6,35 +6,62 @@
     <description>Recent content in Tags on A Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+<<<<<<< HEAD
+    <lastBuildDate>Mon, 26 Feb 2018 00:00:00 +0000</lastBuildDate>
+=======
     <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+>>>>>>> master
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+<<<<<<< HEAD
+      <title>Emotion</title>
+      <link>/tags/emotion/</link>
+      <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
+=======
       <title>Plot</title>
       <link>/tags/plot/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+>>>>>>> master
       
-      <guid>/tags/plot/</guid>
+      <guid>/tags/emotion/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>R Markdown</title>
-      <link>/tags/r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Plan</title>
+      <link>/tags/plan/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/r-markdown/</guid>
+      <guid>/tags/plan/</guid>
       <description></description>
     </item>
     
     <item>
+<<<<<<< HEAD
+      <title>Reflection</title>
+      <link>/tags/reflection/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/reflection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thinkmore</title>
+      <link>/tags/thinkmore/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/thinkmore/</guid>
+=======
       <title>Regression</title>
       <link>/tags/regression/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
       <guid>/tags/regression/</guid>
+>>>>>>> master
       <description></description>
     </item>
     

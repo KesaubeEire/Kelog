@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emotion on A Hugo website</title>
+    <link>/tags/emotion/</link>
+    <description>Recent content in Emotion on A Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/emotion/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>网站初步建设总结</title>
+      <link>/2018/02/26/backlook/</link>
+      <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/02/26/backlook/</guid>
+      <description>其实是发泄重构火葬场 &amp;rdquo;- 你尽管努力&amp;rdquo; &amp;ldquo;- 有成果算我输&amp;rdquo;  我觉得终于tm苟延残喘了赢一次
+今天亲戚聚会累到想死,开了一天车精力已经不行了,还遇到这种重构火葬场的事情,下午的作为差点就都打水泡了.
+还好最后机智地救了回来,还顺便搞清楚了一下那个到底是怎么搞theme的
+总之彻底距离和初步建设网站告一段落就剩下注册域名了可喜可贺
+(又拖了一件事到第二天,日)
+00:43睡啦有啥明天计划吧</description>
+    </item>
+    
+  </channel>
+</rss>
