@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plan on A Hugo website</title>
+    <link>/tags/plan/</link>
+    <description>Recent content in Plan on A Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/plan/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>网站建设计划_Project_Kesa</title>
+      <link>/2018/02/25/project-kesa/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/02/25/project-kesa/</guid>
+      <description>我认为个人形象网站至少要有以下几个元素:   和名字相关的logo mottto 各种联系方式(GitHub/QQ/Weibo/E-Mail etc)  除此以外,我还希望建立一个个人形象总站,包括  软件部游戏部博客部Kesa.KesoftKesa.KameKesa.Kelog 所以现在需要对网站元素(至少是这个Kelog)进行规划,计划有:  个人形象LOGO 联系方式集 修改主题和模板直至让目前的我满意  Just Do It Right Now </description>
+    </item>
+    
+  </channel>
+</rss>
