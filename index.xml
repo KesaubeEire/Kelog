@@ -6,17 +6,12 @@
     <description>Recent content on A Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-<<<<<<< HEAD
     <lastBuildDate>Mon, 26 Feb 2018 00:00:00 +0000</lastBuildDate>
-=======
-    <lastBuildDate>Fri, 30 Dec 2016 21:49:57 -0700</lastBuildDate>
->>>>>>> master
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-<<<<<<< HEAD
       <title>网站初步建设总结</title>
       <link>/2018/02/26/backlook/</link>
       <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
@@ -50,24 +45,10 @@
     
     <item>
       <title>KesaubeEire</title>
-=======
-      <title>A Plain Markdown Post</title>
-      <link>/2016/12/30/a-plain-markdown-post/</link>
-      <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
-      
-      <guid>/2016/12/30/a-plain-markdown-post/</guid>
-      <description>This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
- You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
->>>>>>> master
       <link>/about/</link>
       <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
       
       <guid>/about/</guid>
-<<<<<<< HEAD
       <description>This is Kesa, the name is the abbr of KesaubeEire which is my whole English name.
 我的中文名并不重要,甚至于在这个现实中,大多数人的名字并不重要,没什么人关心你叫什么,都不过是用来区别于其他人的,类似于变量名这种性质的符号罢了
 而英文名比起中文名更有符号感,而不是鲜活的 &amp; 带有家庭姓氏和父母期许的中文名,更加适合这个程序化的时代,把人抽象为一种对象
@@ -76,29 +57,6 @@ PeoPle Kesa&amp;nbsp; = &amp;nbsp;new PelPle(); Kesa.name &amp;nbsp;&amp;nbsp;&a
 最后
 Kesa.motto &amp;nbsp;&amp;nbsp;&amp;nbsp;= &amp;nbsp;&#34;谦虚往往属于优秀&#34;;
  </description>
-=======
-      <description>This is a &amp;ldquo;hello world&amp;rdquo; example website for the blogdown package. The theme was forked from @jrutheiser/hugo-lithium-theme and modified by Yihui Xie.</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>/2015/07/23/hello-r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/2015/07/23/hello-r-markdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
-    </item>
-    
-    <item>
-      <title>Lorem Ipsum</title>
-      <link>/2015/01/01/lorem-ipsum/</link>
-      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
-      
-      <guid>/2015/01/01/lorem-ipsum/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
->>>>>>> master
     </item>
     
   </channel>
