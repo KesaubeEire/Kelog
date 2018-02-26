@@ -6,10 +6,24 @@
     <description>Recent content in Plan on A Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/plan/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>新篇章_算法 &amp; 自己的问题</title>
+      <link>/2018/02/27/alself/</link>
+      <pubDate>Tue, 27 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/02/27/alself/</guid>
+      <description> .Reflection { border: 1px solid #C8C8C8; padding: 25px; background-color: #F0F0F0; } .Plan { border: 1px solid #C8C8C8; padding: 25px; background-color: #F0F0F0; }  今天按照计划搞定了两个LeetCode上面的算法题,还行吧,但是严重耽搁了心理学的计划,每天要抓紧搞定这个事情了
+反思环节 今天和父母生了两次气,原因是我的情绪控制问题,通过总结发现我经常在如下情况下变得烦躁易怒
+ 在我对一个事情妥协过后反复提这个事情 在我对同一件事犯错误后反复提这件错误  首先必须承认我的确存在这个性格缺陷,这是我需要日后花非常多的时间要解决的一个问题,在此按下不表 心理学上讲我发现一个问题,这两种刺激目前导致了相同的反应,也就是说,我的内心底层对这两种反应呈现了同种的抵触性条件反射  这使我潜意识启动了自我保护 这是我童年环境影响下的产物  好了想到这里就可以了,准备迎接明天吧  计划环节 LeetCode上都是JAVA的高能回答
+花一天了解java和C#区别并学个差不多吧!
+别忘了心理学!!!(还有早去健身\理发\洗澡\收拾东西准备出发!) 
+//在你没有搞懂R MarkDown是个什么玩意儿以前尽量用MarkDown写,会让结构无端地多一个html出来导致整体的md结构变质的 </description>
+    </item>
     
     <item>
       <title>网站建设计划_Project_Kesa</title>
