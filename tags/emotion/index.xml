@@ -6,10 +6,19 @@
     <description>Recent content in Emotion on A Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/emotion/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>复杂的一天#计划&amp;犹豫</title>
+      <link>/2018/02/27/planhesitate/</link>
+      <pubDate>Tue, 27 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/02/27/planhesitate/</guid>
+      <description>.Reflection { background-color: #F0F0F0; border: 1px solid #F0F0F0; border-left: 3px solid ; padding: 25px; padding-top: 10px; padding-bottom: 10px; } .Plan { background-color: #F0F0F0; border: 1px solid #F0F0F0; border-left: 3px solid ; padding: 25px; padding-top: 10px; padding-bottom: 10px; } .ps{ border: 3px solid #98bf21; border-style:ridge; padding: 15px; background-color: #F0F0F0; color: #778899; font-size: 16px; text-shadow:1px 1px #000000; }   P.S. 看到这个博客出现在昨晚的博客下方时我意识到这个系统时间只安排到日,没有安排到小时和分钟,算了,就酱紫吧懒得调整了    临走的思绪 临到走才想起来自己要走了 在家里呆的时间的确挺长了 想到这是我第一次过得一个完整的\没有任何不成熟的\幸福的寒假 有点不舍 很少有的能和家人在一起如此幸福的感觉 不瞒自己说是从头一次 母亲那句&amp;rdquo;你都在家呆了40天了?</description>
+    </item>
     
     <item>
       <title>网站初步建设总结</title>
