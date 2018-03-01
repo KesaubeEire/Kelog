@@ -6,10 +6,28 @@
     <description>Recent content in Reflection on Ksea-Kelog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/reflection/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>小记今日#</title>
+      <link>/2018/03/01/march1st/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/03/01/march1st/</guid>
+      <description>今日要点  网站建设:琢磨会了换主题 买鱼养鱼又一学期 新的学习计划进展困难  网站建设:琢磨会了换主题 其实主题这个事儿吧,是我当时自己没有研究好整个文件架结构
+最主要的布置文件是 ~/config.toml
+这里面是整个全局的控制文件
+Serve Site命令是重走一遍这个命令,单纯保存好像也有类似效果,但是不确定
+主题在第四行:
+ theme = &amp;ldquo;hugo-lithium-theme&amp;rdquo;
+ 改天一定换一个CSS布局好的主题,目前这个主题还不行
+有关音乐播放和GIF的话
+GIF:搞了一个免费的图床,应该是可行的
+音乐:目前还没有进展,准备搞咯</description>
+    </item>
     
     <item>
       <title>新的起点#新的收敛</title>
