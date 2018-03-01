@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Plan on Ksea-Kelog</title>
+    <title>Plan on Kesa-Kelog</title>
     <link>/tags/plan/</link>
-    <description>Recent content in Plan on Ksea-Kelog</description>
+    <description>Recent content in Plan on Kesa-Kelog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate>
@@ -24,6 +24,7 @@ Serve Site命令是重走一遍这个命令,单纯保存好像也有类似效果
 主题在第四行:
  theme = &amp;ldquo;hugo-lithium-theme&amp;rdquo;
  改天一定换一个CSS布局好的主题,目前这个主题还不行
+换了一下午主题,头疼,哎还是再找个时间弄彻底一点吧
 有关音乐播放和GIF的话
 GIF:搞了一个免费的图床,应该是可行的
 音乐:目前还没有进展,准备搞咯</description>
