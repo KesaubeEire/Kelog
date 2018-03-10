@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>/2018/03/09/tech-python/</loc>
+    <lastmod>2018-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2018/03/07/w1d3-guilty-of-stayuplate/</loc>
     <lastmod>2018-03-07T00:00:00+00:00</lastmod>
   </url>
@@ -100,6 +105,12 @@
   </url>
   
   <url>
+    <loc>/tags/longterm/</loc>
+    <lastmod>2018-03-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/plain-text/</loc>
     <lastmod>2018-03-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -118,6 +129,12 @@
   </url>
   
   <url>
+    <loc>/categories/python/</loc>
+    <lastmod>2018-03-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/reflection/</loc>
     <lastmod>2018-03-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -126,6 +143,12 @@
   <url>
     <loc>/tags/</loc>
     <lastmod>2018-03-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tech/</loc>
+    <lastmod>2018-03-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

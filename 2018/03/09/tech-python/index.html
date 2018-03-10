@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.36.1" />
+
+
+<title>⭐️Tech#重学Python - Kesa-Kelog</title>
+<meta property="og:title" content="⭐️Tech#重学Python - Kesa-Kelog">
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/KesaubeEire">GitHub</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">⭐️Tech#重学Python</h1>
+
+    
+    <span class="article-date">2018/03/09</span>
+    
+
+    <div class="article-content">
+      
+
+<h1 id="写在前面">写在前面:</h1>
+
+<p>本文为长期更新篇,主要是记录一下自己重新学习python的过程<br>
+记录内容主要是学习内容和学习心得 以往总是用MindNode<br>
+但是感觉以我一个强迫症患者的话 又是记得满满的又懒得重看 还是这样将就一哈<br>
+还有一个必须回头做的事情<br>
+研究一下边栏怎么做,这种东西日志太多就不好找了</p>
+
+<h1 id="不会的重点">不会的重点</h1>
+
+<ul>
+<li><p>list &amp; tuple</p>
+
+<ul>
+<li>list的API(无序列表,随你变,用   (&amp;&amp;)  作为括号)
+
+<ul>
+<li>list[0]~list[length-1] 和 list[-1]和list[-length]访问相同</li>
+<li>list.append(&ldquo;content&rdquo;)添加到最后<br /></li>
+<li>list.insert(index,&ldquo;content&rdquo;)添加到指定索引</li>
+<li>list.pop()删除最后<br /></li>
+<li>list.pop(index)删除指定</li>
+</ul></li>
+
+<li><p>tuple的API(有序元组,不可变,用  [&amp;&amp;]  作为括号)</p>
+
+<ul>
+<li>定义 t = ()</li>
+<li>定义容量 t = (len,) | t = (len) 会被认为是只含数 len 的 tuple</li>
+
+<li><p>可变&amp;不可变:tuple的元素指针指向的值是不变的,但当元素出现list时,list的子元素可以变</p></li>
+
+<li><pre><code class="language-Python">&gt;&gt;&gt; t = ('a', 'b', ['A', 'B'])
+&gt;&gt;&gt; t[2][0] = 'X'
+&gt;&gt;&gt; t[2][1] = 'Y'
+&gt;&gt;&gt; t
+('a', 'b', ['X', 'Y'])
+</code></pre></li>
+
+<li><p>wode</p></li>
+</ul></li>
+</ul></li>
+
+<li><p>字符串方面</p>
+
+<ul>
+<li><p>Python提供了 ord()函数获取字符的整数表示，chr()函数把编码转换为对应的字符</p></li>
+
+<li><pre><code class="language-python">&gt;&gt;&gt; ord('A')
+65
+&gt;&gt;&gt; ord('中')
+20013
+&gt;&gt;&gt; chr(66)
+'B'
+&gt;&gt;&gt; chr(25991)
+'文'
+&gt;&gt;&gt; '\u4e2d\u6587' # 懂十六进制的话可以这样
+'中文'
+# Python对bytes类型的数据用带b前缀的单引号或双引号表示：
+x1 =  b'ABC'      # 字节类型
+x2 =  'ABC'       # 字符串类型
+</code></pre></li>
+
+<li><p>格式化:1.和c一模一样 2.format方法</p></li>
+
+<li><pre><code class="language-python"># 1.和c一模一样
+&gt;&gt;&gt; 'Hello, %s' % 'world'
+'Hello, world'
+&gt;&gt;&gt; 'Hi, %s, you have $%d. Give me %.2f' % ('Michael', 1000000,0.01)
+Hi, Michael, you have $1000000. Give me 0.01
+# 2.format方法
+&gt;&gt;&gt; 'Hello, {0}, 成绩提升了 {1:.1f}%'.format('小明', 17.125)
+'Hello, 小明, 成绩提升了 17.1%'
+</code></pre></li>
+</ul></li>
+
+<li><p>布尔值运算(and二者都true or二者一true not取反)</p>
+
+<pre><code>  &lt;pre&gt;
+  &gt;&gt;&gt; True and True
+  True
+  &gt;&gt;&gt; True and False
+  False
+  &gt;&gt;&gt; True or False
+  True
+  &gt;&gt;&gt; not True
+  False
+  &gt;&gt;&gt; not False
+  True
+  &lt;/pre&gt;
+</code></pre></li>
+</ul>
+
+<h1 id="每日更新">每日更新</h1>
+
+<ul>
+<li>18.3.9
+
+<ul>
+<li>数据类型和变量
+
+<ul>
+<li>转义字符</li>
+<li>布尔值的比较</li>
+<li>空值</li>
+</ul></li>
+<li>字符串和编码
+
+<ul>
+<li>ASCII、Unicode和UTF-8的关系</li>
+<li>python3 中采用 Unicode 编码</li>
+<li>用十六进制 和 字节形式 表示</li>
+</ul></li>
+<li>list 和 tuple
+-</li>
+</ul></li>
+</ul>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <math display="block">
+             <mi>M</mi>
+             <mi>o</mi>
+             <mi>d</mi>
+             <mi>e</mi>
+             <mi>s</mi>
+             <mi>t</mi>
+             <mi>y</mi>
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mi>a</mi>
+             <mi>l</mi>
+             <mi>w</mi>
+             <mi>a</mi>
+             <mi>y</mi>
+             <mi>s</mi>
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mi>b</mi>
+             <mi>e</mi>
+             <mi>l</mi>
+             <mi>o</mi>
+             <mi>n</mi>
+             <mi>g</mi>
+             <mi>s</mi>
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mi>t</mi>
+             <mi>o</mi>
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mi>t</mi>
+             <mi>h</mi>
+             <mi>e</mi>
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mi>E</mi>
+             <mi>l</mi>
+             <mi>i</mi>
+             <mi>t</mi>
+             <mi>e</mi>
+             <mi>s</mi>
+           </math>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with Hugo</a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

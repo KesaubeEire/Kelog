@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Longterm on Kesa-Kelog</title>
+    <link>/tags/longterm/</link>
+    <description>Recent content in Longterm on Kesa-Kelog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/longterm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>⭐️Tech#重学Python</title>
+      <link>/2018/03/09/tech-python/</link>
+      <pubDate>Fri, 09 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/03/09/tech-python/</guid>
+      <description>写在前面: 本文为长期更新篇,主要是记录一下自己重新学习python的过程
+记录内容主要是学习内容和学习心得 以往总是用MindNode
+但是感觉以我一个强迫症患者的话 又是记得满满的又懒得重看 还是这样将就一哈
+还有一个必须回头做的事情
+研究一下边栏怎么做,这种东西日志太多就不好找了
+不会的重点  list &amp;amp; tuple
+ list的API(无序列表,随你变,用 (&amp;amp;&amp;amp;) 作为括号)  list[0]~list[length-1] 和 list[-1]和list[-length]访问相同 list.append(&amp;ldquo;content&amp;rdquo;)添加到最后
+ list.insert(index,&amp;ldquo;content&amp;rdquo;)添加到指定索引 list.pop()删除最后
+ list.pop(index)删除指定  tuple的API(有序元组,不可变,用 [&amp;amp;&amp;amp;] 作为括号)
+ 定义 t = () 定义容量 t = (len,) | t = (len) 会被认为是只含数 len 的 tuple 可变&amp;amp;不可变:tuple的元素指针指向的值是不变的,但当元素出现list时,list的子元素可以变
+ &amp;gt;&amp;gt;&amp;gt; t = (&#39;a&#39;, &#39;b&#39;, [&#39;A&#39;, &#39;B&#39;]) &amp;gt;&amp;gt;&amp;gt; t[2][0] = &#39;X&#39; &amp;gt;&amp;gt;&amp;gt; t[2][1] = &#39;Y&#39; &amp;gt;&amp;gt;&amp;gt; t (&#39;a&#39;, &#39;b&#39;, [&#39;X&#39;, &#39;Y&#39;])  wode</description>
+    </item>
+    
+  </channel>
+</rss>
