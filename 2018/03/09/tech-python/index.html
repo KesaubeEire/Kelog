@@ -57,7 +57,7 @@
 
   <article class="article">
     
-    <span class="article-duration">1 min read</span>
+    <span class="article-duration">2 min read</span>
     
 
     <h1 class="article-title">⭐️Tech#重学Python</h1>
@@ -75,11 +75,124 @@
 记录内容主要是学习内容和学习心得 以往总是用MindNode<br>
 但是感觉以我一个强迫症患者的话 又是记得满满的又懒得重看 还是这样将就一哈<br>
 还有一个必须回头做的事情<br>
-研究一下边栏怎么做,这种东西日志太多就不好找了</p>
+研究一下边栏怎么做,这种东西日志太多就不好找了<br><br>
+ps.如果出现 &ldquo;- 啊哈&rdquo; <br>那是因为MarkDown的格式问题<br>在列表代码分支下必须有一个同级分支<br>否则会格式错误,见谅</p>
 
 <h1 id="不会的重点">不会的重点</h1>
 
 <ul>
+<li><p>可变对象 和 不可变对象</p>
+
+<ul>
+<li>对于可变对象的操作是直接作用在对象本身的</li>
+
+<li><pre><code class="language-python">&gt;&gt;&gt; a = ['c', 'b', 'a']
+&gt;&gt;&gt; a.sort()
+&gt;&gt;&gt; a
+['a', 'b', 'c']
+</code></pre></li>
+
+<li><p>而对于不可变对象的操作对对象本身没有影响<br>而是返回一个复制值再进行操作</p></li>
+
+<li><pre><code class="language-python">&gt;&gt;&gt; a = 'abc'
+&gt;&gt;&gt; b = a.replace('a', 'A')
+&gt;&gt;&gt; b
+'Abc'
+&gt;&gt;&gt; a
+'abc'
+</code></pre></li>
+
+<li><p>可变对象有: list,dict<br>不可变对象有:int,string,float,tuple</p></li>
+</ul></li>
+
+<li><p>dict 和 set</p>
+
+<ul>
+<li><p>set 简单粗暴的Hashset</p>
+
+<ul>
+<li><p>api</p>
+
+<ul>
+<li>set_object.add(element) 添加</li>
+<li>set_object.remove(element) 删除</li>
+<li>集合型操作:交集 &amp; 并集<a href="http://blog.csdn.net/business122/article/details/7541486">全部集合型操作</a></li>
+
+<li><pre><code class="language-python"># 部分操作,全部详见上面的链接
+a = t | s    # t 和 s的并集  
+b = t &amp; s    # t 和 s的交集  
+c = t – s    # 求差集（项在t中，但不在s中）  
+d = t ^ s    # 对称差集（项不同时在s和t中）  
+</code></pre></li>
+
+<li><p>啊哈</p></li>
+</ul></li>
+</ul></li>
+
+<li><p>dict 键值对</p>
+
+<ul>
+<li>表示:</li>
+</ul></li>
+
+<li><pre><code class="language-Python"># 用list实现
+names = ['Michael', 'Bob', 'Tracy']
+scores = [95, 75, 85]
+# 用dict实现1
+&gt;&gt;&gt; d = {'Michael': 95, 'Bob': 75, 'Tracy': 85}
+&gt;&gt;&gt; d['Michael']
+95
+# 用dict实现2
+&gt;&gt;&gt; d['Adam'] = 67
+&gt;&gt;&gt; d['Adam']
+67
+###############
+# 判断Key是否存在1
+&gt;&gt;&gt; 'Thomas' in d
+False
+# 判断Key是否存在2
+&gt;&gt;&gt; print(d.get('Thomas')) # 不存在的话print显示None
+None
+# 判断Key是否存在3
+&gt;&gt;&gt; d.get('Thomas', 233) # 这是自定义的不存在的显示情况
+233                      # 逗号之后是自定义的显示内容
+&gt;&gt;&gt; d.get('Michael', 233) # 这是自定义的不存在的显示情况
+95                        # 存在的话返回 键 对应的 值
+</code></pre>
+
+<ul>
+<li>list &amp; dict 的区别 dict用空间换时间
+
+<ul>
+<li>和list比较，dict有以下几个特点：
+
+<ul>
+<li>查找和插入的速度极快，不会随着key的增加而变慢；</li>
+<li>需要占用大量的内存，内存浪费多。</li>
+</ul></li>
+<li>而list相反：
+
+<ul>
+<li>查找和插入的时间随着元素的增加而增加；</li>
+<li>占用空间小，浪费内存很少。</li>
+</ul></li>
+</ul></li>
+<li>dict_object.pop(key) 删除一个键值对</li>
+</ul></li>
+</ul></li>
+
+<li><p>循环</p>
+
+<ul>
+<li>range函数 包前不包后
+
+<ul>
+<li>range(5) = [0, 1, 2, 3, 4]</li>
+<li>range(4,10) = [4,5,6,7,8,9]</li>
+</ul></li>
+<li>break &amp; continue 的存在</li>
+</ul></li>
+
 <li><p>list &amp; tuple</p>
 
 <ul>
@@ -108,7 +221,7 @@
 ('a', 'b', ['X', 'Y'])
 </code></pre></li>
 
-<li><p>wode</p></li>
+<li><p>啊哈</p></li>
 </ul></li>
 </ul></li>
 
@@ -182,9 +295,40 @@ Hi, Michael, you have $1000000. Give me 0.01
 <li>python3 中采用 Unicode 编码</li>
 <li>用十六进制 和 字节形式 表示</li>
 </ul></li>
-<li>list 和 tuple
--</li>
+<li>list 和 tuple各自的APi</li>
 </ul></li>
+<li>18.3.10
+
+<ul>
+<li>条件判断
+
+<ul>
+<li>全写 和 简写</li>
+</ul></li>
+<li>循环
+
+<ul>
+<li>range函数 包前不包后</li>
+<li>break &amp; continue 的存在</li>
+</ul></li>
+<li>dict 和 set
+
+<ul>
+<li>dict 键值对 Hash Map
+
+<ul>
+<li>dict 的 key 不可变</li>
+<li>list &amp; dict 的区别 dict用空间换时间</li>
+</ul></li>
+<li>set 哈希表 Hash set 这么tm直接啊</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<h1 id="reference-网址链接集中">Reference_网址链接集中</h1>
+
+<ul>
+<li><a href="http://blog.csdn.net/business122/article/details/7541486">set作为集合的集合操作API</a></li>
 </ul>
 
     </div>

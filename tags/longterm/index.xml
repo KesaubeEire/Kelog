@@ -22,12 +22,18 @@
 但是感觉以我一个强迫症患者的话 又是记得满满的又懒得重看 还是这样将就一哈
 还有一个必须回头做的事情
 研究一下边栏怎么做,这种东西日志太多就不好找了
-不会的重点  list &amp;amp; tuple
- list的API(无序列表,随你变,用 (&amp;amp;&amp;amp;) 作为括号)  list[0]~list[length-1] 和 list[-1]和list[-length]访问相同 list.append(&amp;ldquo;content&amp;rdquo;)添加到最后
- list.insert(index,&amp;ldquo;content&amp;rdquo;)添加到指定索引 list.pop()删除最后
- list.pop(index)删除指定  tuple的API(有序元组,不可变,用 [&amp;amp;&amp;amp;] 作为括号)
- 定义 t = () 定义容量 t = (len,) | t = (len) 会被认为是只含数 len 的 tuple 可变&amp;amp;不可变:tuple的元素指针指向的值是不变的,但当元素出现list时,list的子元素可以变
- &amp;gt;&amp;gt;&amp;gt; t = (&#39;a&#39;, &#39;b&#39;, [&#39;A&#39;, &#39;B&#39;]) &amp;gt;&amp;gt;&amp;gt; t[2][0] = &#39;X&#39; &amp;gt;&amp;gt;&amp;gt; t[2][1] = &#39;Y&#39; &amp;gt;&amp;gt;&amp;gt; t (&#39;a&#39;, &#39;b&#39;, [&#39;X&#39;, &#39;Y&#39;])  wode</description>
+ps.如果出现 &amp;ldquo;- 啊哈&amp;rdquo; 那是因为MarkDown的格式问题
+在列表代码分支下必须有一个同级分支
+否则会格式错误,见谅
+不会的重点  可变对象 和 不可变对象
+ 对于可变对象的操作是直接作用在对象本身的 &amp;gt;&amp;gt;&amp;gt; a = [&#39;c&#39;, &#39;b&#39;, &#39;a&#39;] &amp;gt;&amp;gt;&amp;gt; a.sort() &amp;gt;&amp;gt;&amp;gt; a [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;]  而对于不可变对象的操作对对象本身没有影响
+而是返回一个复制值再进行操作
+ &amp;gt;&amp;gt;&amp;gt; a = &#39;abc&#39; &amp;gt;&amp;gt;&amp;gt; b = a.replace(&#39;a&#39;, &#39;A&#39;) &amp;gt;&amp;gt;&amp;gt; b &#39;Abc&#39; &amp;gt;&amp;gt;&amp;gt; a &#39;abc&#39;  可变对象有: list,dict
+不可变对象有:int,string,float,tuple
+  dict 和 set
+ set 简单粗暴的Hashset
+ api
+ set_object.</description>
     </item>
     
   </channel>

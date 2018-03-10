@@ -6,10 +6,22 @@
     <description>Recent content on Kesa-Kelog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>W1D6#决定日</title>
+      <link>/2018/03/10/w1d6/</link>
+      <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/03/10/w1d6/</guid>
+      <description>⭐️突然发现的绝妙  异或运算
+ 概念 应用
+ 省略中间变量的交换方式 int a=1; int b=2; a ^= b; b ^= a; a ^= b; //这样就节省一个中间变量的内存位置,牛逼啊  算法用于将奇数次出现的数搞出来LeetCode上见过好多次了
+    计划 &amp;amp; 执行    Events Spending Aim Progress     心理学!!! 120&amp;rsquo; 必须完成 pro   看Mooc_音乐_C++ 180&amp;rsquo; 必须完成 C++Done   LeetCode 90&amp;rsquo; 3个 pro   决定参加哪些比赛 45&amp;rsquo; 记得联系人 摇篮杯Unity:done   健身:胸 180&amp;rsquo;  done   黑色毛衣 45&amp;rsquo;  pro   从零开始学Python 120&amp;rsquo; 学前提条件 done    Tom    Events Spending Aim Progress     UnitySteel 120&amp;rsquo; 减模&amp;amp;换模    开始着手托福了 60&amp;rsquo; 得加油啦 pro   去中行换绑定的手机 30&amp;rsquo;  pro    杂事  有个Leetcode 我很有可能能写出来!</description>
+    </item>
     
     <item>
       <title>W1D5#美好的周五</title>
@@ -41,12 +53,18 @@ KEyKEy史无前例地349
 但是感觉以我一个强迫症患者的话 又是记得满满的又懒得重看 还是这样将就一哈
 还有一个必须回头做的事情
 研究一下边栏怎么做,这种东西日志太多就不好找了
-不会的重点  list &amp;amp; tuple
- list的API(无序列表,随你变,用 (&amp;amp;&amp;amp;) 作为括号)  list[0]~list[length-1] 和 list[-1]和list[-length]访问相同 list.append(&amp;ldquo;content&amp;rdquo;)添加到最后
- list.insert(index,&amp;ldquo;content&amp;rdquo;)添加到指定索引 list.pop()删除最后
- list.pop(index)删除指定  tuple的API(有序元组,不可变,用 [&amp;amp;&amp;amp;] 作为括号)
- 定义 t = () 定义容量 t = (len,) | t = (len) 会被认为是只含数 len 的 tuple 可变&amp;amp;不可变:tuple的元素指针指向的值是不变的,但当元素出现list时,list的子元素可以变
- &amp;gt;&amp;gt;&amp;gt; t = (&#39;a&#39;, &#39;b&#39;, [&#39;A&#39;, &#39;B&#39;]) &amp;gt;&amp;gt;&amp;gt; t[2][0] = &#39;X&#39; &amp;gt;&amp;gt;&amp;gt; t[2][1] = &#39;Y&#39; &amp;gt;&amp;gt;&amp;gt; t (&#39;a&#39;, &#39;b&#39;, [&#39;X&#39;, &#39;Y&#39;])  wode</description>
+ps.如果出现 &amp;ldquo;- 啊哈&amp;rdquo; 那是因为MarkDown的格式问题
+在列表代码分支下必须有一个同级分支
+否则会格式错误,见谅
+不会的重点  可变对象 和 不可变对象
+ 对于可变对象的操作是直接作用在对象本身的 &amp;gt;&amp;gt;&amp;gt; a = [&#39;c&#39;, &#39;b&#39;, &#39;a&#39;] &amp;gt;&amp;gt;&amp;gt; a.sort() &amp;gt;&amp;gt;&amp;gt; a [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;]  而对于不可变对象的操作对对象本身没有影响
+而是返回一个复制值再进行操作
+ &amp;gt;&amp;gt;&amp;gt; a = &#39;abc&#39; &amp;gt;&amp;gt;&amp;gt; b = a.replace(&#39;a&#39;, &#39;A&#39;) &amp;gt;&amp;gt;&amp;gt; b &#39;Abc&#39; &amp;gt;&amp;gt;&amp;gt; a &#39;abc&#39;  可变对象有: list,dict
+不可变对象有:int,string,float,tuple
+  dict 和 set
+ set 简单粗暴的Hashset
+ api
+ set_object.</description>
     </item>
     
     <item>

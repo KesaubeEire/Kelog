@@ -6,10 +6,22 @@
     <description>Recent content in Emotion on Kesa-Kelog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/emotion/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>W1D6#决定日</title>
+      <link>/2018/03/10/w1d6/</link>
+      <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/03/10/w1d6/</guid>
+      <description>⭐️突然发现的绝妙  异或运算
+ 概念 应用
+ 省略中间变量的交换方式 int a=1; int b=2; a ^= b; b ^= a; a ^= b; //这样就节省一个中间变量的内存位置,牛逼啊  算法用于将奇数次出现的数搞出来LeetCode上见过好多次了
+    计划 &amp;amp; 执行    Events Spending Aim Progress     心理学!!! 120&amp;rsquo; 必须完成 pro   看Mooc_音乐_C++ 180&amp;rsquo; 必须完成 C++Done   LeetCode 90&amp;rsquo; 3个 pro   决定参加哪些比赛 45&amp;rsquo; 记得联系人 摇篮杯Unity:done   健身:胸 180&amp;rsquo;  done   黑色毛衣 45&amp;rsquo;  pro   从零开始学Python 120&amp;rsquo; 学前提条件 done    Tom    Events Spending Aim Progress     UnitySteel 120&amp;rsquo; 减模&amp;amp;换模    开始着手托福了 60&amp;rsquo; 得加油啦 pro   去中行换绑定的手机 30&amp;rsquo;  pro    杂事  有个Leetcode 我很有可能能写出来!</description>
+    </item>
     
     <item>
       <title>W1D3#Guilty_Of_StayUpLate</title>
