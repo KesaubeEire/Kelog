@@ -6,10 +6,52 @@
     <description>Recent content on Kesa-Kelog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>W2D1#AfterSleep</title>
+      <link>/2018/03/12/w2d1-aftersleep/</link>
+      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/03/12/w2d1-aftersleep/</guid>
+      <description>前言 第一个星期有点小迷茫
+因为方向很多 决定很难
+但是这周和下周是非常重要的决定方向的时间了
+相信自己可以找到自己喜欢的方向的
+周计划情况: - 吉他 - 上周:黑色毛衣没有完成,本周不新增,争取学会 - 本周:黑色毛衣完成 - 电影 - 上周:没有看IMDB,看了实体电影,写了周记,算完成 - 本周:IMDB:奇爱博士
+计划 &amp;amp; 执行    Events Spending Aim Progress     UnitySteel 120&amp;rsquo; 减模&amp;amp;换模    C++ &amp;amp; Python 90&amp;rsquo; 看情况 Done   FreeCodecamp 60&amp;rsquo; 看情况 Done   开始着手托福了 90&amp;rsquo; must 明天开始着手阅读   早上去健身:背 90&amp;rsquo; must 明天开始着手阅读   分化报告&amp;amp;生化作业 90&amp;rsquo; must    LeetCode 90&amp;rsquo; 3个 Undone   去中行换绑定的手机 30&amp;rsquo; must    总计 660(510)&amp;rsquo; must     Tomorrow    Events Spending Aim Progress      杂事  计算机设计大赛报名 报名截止到20号  微电影组 游戏组 应用组  改善网页:右侧边栏  并在freecodecamp 也行  提醒那个冠科和李子超他们看看怎么出那个微视频  拖到了下周二和下周末,没事  有个Leetcode 我很有可能能写出来!</description>
+    </item>
+    
+    <item>
+      <title>W1D7#CheatDay</title>
+      <link>/2018/03/11/w1d7-cheatday/</link>
+      <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/03/11/w1d7-cheatday/</guid>
+      <description>计划 &amp;amp; 执行    Events Spending Aim Progress     开始着手托福了 60&amp;rsquo; 得加油啦 单词done\明儿开始听力   去中行换绑定的手机 30&amp;rsquo; 妈叮嘱过必办 Undone   看Mooc_音乐_C++ 120&amp;rsquo; 必须完成 Done   LeetCode 90&amp;rsquo; 3个 Undone   心理学!!! 60&amp;rsquo; 必须完成 Undone,cao   晚上的学业帮棒堂 90&amp;rsquo; 教101 19：30-21:00 Done,王欣亮很厉害!   分化实验报告&amp;amp;生化题目 120&amp;rsquo;  分化实验报告部分done    Tomorrow    Events Spending Aim Progress     UnitySteel 120&amp;rsquo; 减模&amp;amp;换模    C++ &amp;amp; Python 90&amp;rsquo; 看情况 Done   FreeCodecamp 60&amp;rsquo; 看情况 Done   开始着手托福了 90&amp;rsquo; must 明天开始着手阅读   早上去健身:背 90&amp;rsquo; must 明天开始着手阅读   分化报告&amp;amp;生化作业 90&amp;rsquo; must    LeetCode 90&amp;rsquo; 3个 Undone   去中行换绑定的手机 30&amp;rsquo; must    总计 660(510)&amp;rsquo; must     杂事  计算机设计大赛报名 报名截止到20号  微电影组 游戏组 应用组  改善网页:右侧边栏 提醒那个冠科和李子超他们看看怎么出那个微视频  拖到了下周二和下周末,没事  有个Leetcode 我很有可能能写出来!</description>
+    </item>
+    
+    <item>
+      <title>⭐️Tech#重学C&#43;&#43;</title>
+      <link>/2018/03/11/tech-c--/</link>
+      <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/03/11/tech-c--/</guid>
+      <description>声明 同Python的重学
+这里也是我的重学的C++部分
+本来就不会,所以更要认真
+ps.如果出现 &amp;ldquo;- 啊哈&amp;rdquo; 那是因为MarkDown的格式问题
+在列表代码分支下必须有一个同级分支
+否则会格式错误,见谅 那么加油
+不会的重点  位运算都不会,下面有,注意事项看pdf printf 和 cin的问题看下面  日志  3.10
+ printf的用法  和C一样  printf(&amp;quot;%s You son of Bitch %s\n&amp;quot;, name1, name2);   啊哈  cin &amp;lt;&amp;lt; 和 cin.getline() 的区别
+ cin&amp;lt;&amp;lt;是以空格、回车、TAB为输入结束 cin.getline()是以回车为结束  逻辑和位运算的区别
+  3.11
+ 位运算  双目  &amp;amp; 按位 “与” | 按位 “或“ ^ 按位 &amp;ldquo;异或&amp;rdquo; Shift+  &amp;lt;&amp;lt; 左移 &amp;gt;&amp;gt; 右移 格式: &amp;lt;整数类型表达式 1&amp;gt; &amp;lt;位运算符&amp;gt; &amp;lt;整数类型表达式 2&amp;gt;  单目  ~ 按位 &amp;ldquo;取反&amp;rdquo; Shift+  ~ &amp;lt;整数类型表达式&amp;gt;   特殊运算符  赋值运算符  赋值同时是表达式 左值和右值  左值:变量等能被赋值的值 右值:有值的表达式   字节数运算符 sizeof() 求某类型的数据或表达式的值占的字节数 条件运算符  达到条件执行1,不达到执行2 格式: &amp;lt;条件&amp;gt; ?</description>
+    </item>
     
     <item>
       <title>W1D6#决定日</title>
@@ -20,7 +62,7 @@
       <description>⭐️突然发现的绝妙  异或运算
  概念 应用
  省略中间变量的交换方式 int a=1; int b=2; a ^= b; b ^= a; a ^= b; //这样就节省一个中间变量的内存位置,牛逼啊  算法用于将奇数次出现的数搞出来LeetCode上见过好多次了
-    计划 &amp;amp; 执行    Events Spending Aim Progress     心理学!!! 120&amp;rsquo; 必须完成 pro   看Mooc_音乐_C++ 180&amp;rsquo; 必须完成 C++Done   LeetCode 90&amp;rsquo; 3个 pro   决定参加哪些比赛 45&amp;rsquo; 记得联系人 摇篮杯Unity:done   健身:胸 180&amp;rsquo;  done   黑色毛衣 45&amp;rsquo;  pro   从零开始学Python 120&amp;rsquo; 学前提条件 done    Tom    Events Spending Aim Progress     UnitySteel 120&amp;rsquo; 减模&amp;amp;换模    开始着手托福了 60&amp;rsquo; 得加油啦 pro   去中行换绑定的手机 30&amp;rsquo; 妈叮嘱过必办 pro    杂事  有个Leetcode 我很有可能能写出来!</description>
+    计划 &amp;amp; 执行    Events Spending Aim Progress     心理学!!! 120&amp;rsquo; 必须完成 Undone   看Mooc_音乐_C++ 180&amp;rsquo; 必须完成 C++Done   LeetCode 90&amp;rsquo; 3个 一个没出来   决定参加哪些比赛 45&amp;rsquo; 记得联系人 摇篮杯Unity:done   健身:胸 180&amp;rsquo;  done   黑色毛衣 45&amp;rsquo;  pro   从零开始学Python 120&amp;rsquo; 学前提条件 done    Tom    Events Spending Aim Progress     UnitySteel 120&amp;rsquo; 减模&amp;amp;换模    开始着手托福了 60&amp;rsquo; 得加油啦 pro   去中行换绑定的手机 30&amp;rsquo; 妈叮嘱过必办 pro   看Mooc_音乐_C++ 180&amp;rsquo; 必须完成 C++Done   LeetCode 90&amp;rsquo; 3个 一个没出来   心理学!</description>
     </item>
     
     <item>

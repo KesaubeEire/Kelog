@@ -6,10 +6,29 @@
     <description>Recent content in Tech on Kesa-Kelog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>⭐️Tech#重学C&#43;&#43;</title>
+      <link>/2018/03/11/tech-c--/</link>
+      <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/03/11/tech-c--/</guid>
+      <description>声明 同Python的重学
+这里也是我的重学的C++部分
+本来就不会,所以更要认真
+ps.如果出现 &amp;ldquo;- 啊哈&amp;rdquo; 那是因为MarkDown的格式问题
+在列表代码分支下必须有一个同级分支
+否则会格式错误,见谅 那么加油
+不会的重点  位运算都不会,下面有,注意事项看pdf printf 和 cin的问题看下面  日志  3.10
+ printf的用法  和C一样  printf(&amp;quot;%s You son of Bitch %s\n&amp;quot;, name1, name2);   啊哈  cin &amp;lt;&amp;lt; 和 cin.getline() 的区别
+ cin&amp;lt;&amp;lt;是以空格、回车、TAB为输入结束 cin.getline()是以回车为结束  逻辑和位运算的区别
+  3.11
+ 位运算  双目  &amp;amp; 按位 “与” | 按位 “或“ ^ 按位 &amp;ldquo;异或&amp;rdquo; Shift+  &amp;lt;&amp;lt; 左移 &amp;gt;&amp;gt; 右移 格式: &amp;lt;整数类型表达式 1&amp;gt; &amp;lt;位运算符&amp;gt; &amp;lt;整数类型表达式 2&amp;gt;  单目  ~ 按位 &amp;ldquo;取反&amp;rdquo; Shift+  ~ &amp;lt;整数类型表达式&amp;gt;   特殊运算符  赋值运算符  赋值同时是表达式 左值和右值  左值:变量等能被赋值的值 右值:有值的表达式   字节数运算符 sizeof() 求某类型的数据或表达式的值占的字节数 条件运算符  达到条件执行1,不达到执行2 格式: &amp;lt;条件&amp;gt; ?</description>
+    </item>
     
     <item>
       <title>⭐️Tech#重学Python</title>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Longterm on Kesa-Kelog</title>
-    <link>/tags/longterm/</link>
-    <description>Recent content in Longterm on Kesa-Kelog</description>
+    <title>C&#43;&#43; on Kesa-Kelog</title>
+    <link>/categories/c&#43;&#43;/</link>
+    <description>Recent content in C&#43;&#43; on Kesa-Kelog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 11 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/longterm/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/c++/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -28,31 +28,6 @@ ps.如果出现 &amp;ldquo;- 啊哈&amp;rdquo; 那是因为MarkDown的格式问�
  cin&amp;lt;&amp;lt;是以空格、回车、TAB为输入结束 cin.getline()是以回车为结束  逻辑和位运算的区别
   3.11
  位运算  双目  &amp;amp; 按位 “与” | 按位 “或“ ^ 按位 &amp;ldquo;异或&amp;rdquo; Shift+  &amp;lt;&amp;lt; 左移 &amp;gt;&amp;gt; 右移 格式: &amp;lt;整数类型表达式 1&amp;gt; &amp;lt;位运算符&amp;gt; &amp;lt;整数类型表达式 2&amp;gt;  单目  ~ 按位 &amp;ldquo;取反&amp;rdquo; Shift+  ~ &amp;lt;整数类型表达式&amp;gt;   特殊运算符  赋值运算符  赋值同时是表达式 左值和右值  左值:变量等能被赋值的值 右值:有值的表达式   字节数运算符 sizeof() 求某类型的数据或表达式的值占的字节数 条件运算符  达到条件执行1,不达到执行2 格式: &amp;lt;条件&amp;gt; ?</description>
-    </item>
-    
-    <item>
-      <title>⭐️Tech#重学Python</title>
-      <link>/2018/03/09/tech-python/</link>
-      <pubDate>Fri, 09 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/03/09/tech-python/</guid>
-      <description>写在前面: 本文为长期更新篇,主要是记录一下自己重新学习python的过程
-记录内容主要是学习内容和学习心得 以往总是用MindNode
-但是感觉以我一个强迫症患者的话 又是记得满满的又懒得重看 还是这样将就一哈
-还有一个必须回头做的事情
-研究一下边栏怎么做,这种东西日志太多就不好找了
-ps.如果出现 &amp;ldquo;- 啊哈&amp;rdquo; 那是因为MarkDown的格式问题
-在列表代码分支下必须有一个同级分支
-否则会格式错误,见谅
-不会的重点  可变对象 和 不可变对象
- 对于可变对象的操作是直接作用在对象本身的 &amp;gt;&amp;gt;&amp;gt; a = [&#39;c&#39;, &#39;b&#39;, &#39;a&#39;] &amp;gt;&amp;gt;&amp;gt; a.sort() &amp;gt;&amp;gt;&amp;gt; a [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;]  而对于不可变对象的操作对对象本身没有影响
-而是返回一个复制值再进行操作
- &amp;gt;&amp;gt;&amp;gt; a = &#39;abc&#39; &amp;gt;&amp;gt;&amp;gt; b = a.replace(&#39;a&#39;, &#39;A&#39;) &amp;gt;&amp;gt;&amp;gt; b &#39;Abc&#39; &amp;gt;&amp;gt;&amp;gt; a &#39;abc&#39;  可变对象有: list,dict
-不可变对象有:int,string,float,tuple
-  dict 和 set
- set 简单粗暴的Hashset
- api
- set_object.</description>
     </item>
     
   </channel>
