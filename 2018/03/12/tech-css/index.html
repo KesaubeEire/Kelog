@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.36.1" />
+
+
+<title>⭐️Tech#重学CSS - Kesa-Kelog</title>
+<meta property="og:title" content="⭐️Tech#重学CSS - Kesa-Kelog">
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/KesaubeEire">GitHub</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">⭐️Tech#重学CSS</h1>
+
+    
+    <span class="article-date">2018/03/12</span>
+    
+
+    <div class="article-content">
+      
+
+<h1 id="写在前面">写在前面</h1>
+
+<p>重学系列第三弹<br>
+哈哈挖坑好多啊<br>
+我也不知道为什么这么喜欢挖坑咯<br>
+大概是因为我喜欢倒腾着学习形式的变化吧<br>
+从一开始的额word总结,到MindNode<br>
+再到网页总结方式<br>
+越来越多的方式总有一个目的<br>
+我想记录<br>
+哈哈还是表现欲 &amp; 记录欲的结合呢<br>
+加油啦Kesa!</p>
+
+<h1 id="重点">重点</h1>
+
+<ul>
+<li><p>记一个 css 样式优先级的顺序</p>
+
+<ul>
+<li>最弱: 最上面个的 css</li>
+<li>next: 往后的 css ,若 class 均在同一个对象中出现(与放置顺序无关),越往后的会覆盖掉前面的</li>
+<li>next: id id 永远比 class 优先级高</li>
+
+<li><p>next: 行内 style , 这个比前两者都高</p>
+
+<pre><code class="language-CSS">&lt;style&gt;
+body {
+background-color: black;
+font-family: Monospace;
+color: green;
+}
+.pink-text {
+color: pink;
+}
+.blue-text {
+color: blue;
+}
+#orange-text{
+color:orange;
+}
+&lt;/style&gt;
+&lt;h1 class=&quot;pink-text blue-text&quot; id=&quot;orange-text&quot;&gt;
+Hello World!
+&lt;/h1&gt;
+</code></pre>
+
+<p><style>
+.pink-text {
+color: pink;
+}
+.blue-text {
+color: blue;
+}
+#orange-text{
+color:orange;
+}
+</style>
+<h1 class=" blue-text" id="orange-text">Hello World!</h1></p></li>
+
+<li><p>final: 若在某对象中 class 有多个,其中的某一个有某属性后带了 !important,那它最最高</p>
+
+<pre><code class="language-CSS">&lt;style&gt;
+#orange-text {
+color: orange;
+}
+.pink-text {
+color: pink !important;
+}
+.blue-text {
+color: blue;
+}
+&lt;/style&gt;
+&lt;h1 id=&quot;orange-text&quot; class=&quot;pink-text blue-text&quot; style=&quot;color: white&quot;&gt;Hello World!&lt;/h1&gt;
+</code></pre>
+
+<p><style>
+#orange-text {
+color: orange;
+}
+.pink-text {
+color: pink !important;
+}
+.blue-text {
+color: blue;
+}
+</style>
+<h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1></p></li>
+</ul></li>
+</ul>
+
+<h1 id="日志">日志</h1>
+
+<ul>
+<li>18.3.12
+
+<ul>
+<li>style 的 override</li>
+<li>padding &amp; margin 复习</li>
+<li>ol &amp; ul</li>
+</ul></li>
+</ul>
+
+<h1 id="reference">Reference</h1>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <math display="block">
+             <mi>M</mi>
+             <mi>o</mi>
+             <mi>d</mi>
+             <mi>e</mi>
+             <mi>s</mi>
+             <mi>t</mi>
+             <mi>y</mi>
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mi>a</mi>
+             <mi>l</mi>
+             <mi>w</mi>
+             <mi>a</mi>
+             <mi>y</mi>
+             <mi>s</mi>
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mi>b</mi>
+             <mi>e</mi>
+             <mi>l</mi>
+             <mi>o</mi>
+             <mi>n</mi>
+             <mi>g</mi>
+             <mi>s</mi>
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mi>t</mi>
+             <mi>o</mi>
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mi>t</mi>
+             <mi>h</mi>
+             <mi>e</mi>
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mi>E</mi>
+             <mi>l</mi>
+             <mi>i</mi>
+             <mi>t</mi>
+             <mi>e</mi>
+             <mi>s</mi>
+           </math>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with Hugo</a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+  </body>
+</html>
+

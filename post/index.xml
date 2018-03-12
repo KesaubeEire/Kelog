@@ -21,8 +21,28 @@
 因为方向很多 决定很难
 但是这周和下周是非常重要的决定方向的时间了
 相信自己可以找到自己喜欢的方向的
-周计划情况: - 吉他 - 上周:黑色毛衣没有完成,本周不新增,争取学会 - 本周:黑色毛衣完成 - 电影 - 上周:没有看IMDB,看了实体电影,写了周记,算完成 - 本周:IMDB:奇爱博士
-计划 &amp;amp; 执行    Events Spending Aim Progress     UnitySteel 120&amp;rsquo; 减模&amp;amp;换模    C++ &amp;amp; Python 90&amp;rsquo; 看情况 Done   FreeCodecamp 60&amp;rsquo; 看情况 Done   开始着手托福了 90&amp;rsquo; must 明天开始着手阅读   早上去健身:背 90&amp;rsquo; must 明天开始着手阅读   分化报告&amp;amp;生化作业 90&amp;rsquo; must    LeetCode 90&amp;rsquo; 3个 Undone   去中行换绑定的手机 30&amp;rsquo; must    总计 660(510)&amp;rsquo; must     Tomorrow    Events Spending Aim Progress      杂事  计算机设计大赛报名 报名截止到20号  微电影组 游戏组 应用组  改善网页:右侧边栏  并在freecodecamp 也行  提醒那个冠科和李子超他们看看怎么出那个微视频  拖到了下周二和下周末,没事  有个Leetcode 我很有可能能写出来!</description>
+ 周计划情况: 吉他  上周:黑色毛衣没有完成,本周不新增,争取学会 本周:黑色毛衣完成  电影  上周:没有看IMDB,看了实体电影,写了周记,算完成 本周:IMDB:奇爱博士   计划 &amp;amp; 执行    Events Spending Aim Progress     UnitySteel 120&amp;rsquo; 减模&amp;amp;换模    C++ &amp;amp; Python 90&amp;rsquo; 看情况 Done   FreeCodecamp 60&amp;rsquo; 看情况 Done   开始着手托福了 90&amp;rsquo; must 明天开始着手阅读   早上去健身:背 90&amp;rsquo; must 明天开始着手阅读   分化报告&amp;amp;生化作业 90&amp;rsquo; must    LeetCode 90&amp;rsquo; 3个 Undone   去中行换绑定的手机 30&amp;rsquo; must    总计 660(510)&amp;rsquo; must     Tomorrow    Events Spending Aim Progress      杂事  催王梦瑶老师弄那个工时 办公楼,选课的事情,非常紧急 13:30 下午和冠科彭嘉瑢讨论  具体时间等待召唤  计算机设计大赛报名 报名截止到20号  微电影组 游戏组 应用组  改善网页:右侧边栏  并在freecodecamp 也行  提醒那个冠科和李子超他们看看怎么出那个微视频  拖到了下周二和下周末,没事  有个Leetcode 我很有可能能写出来!</description>
+    </item>
+    
+    <item>
+      <title>⭐️Tech#重学CSS</title>
+      <link>/2018/03/12/tech-css/</link>
+      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/03/12/tech-css/</guid>
+      <description>写在前面 重学系列第三弹
+哈哈挖坑好多啊
+我也不知道为什么这么喜欢挖坑咯
+大概是因为我喜欢倒腾着学习形式的变化吧
+从一开始的额word总结,到MindNode
+再到网页总结方式
+越来越多的方式总有一个目的
+我想记录
+哈哈还是表现欲 &amp;amp; 记录欲的结合呢
+加油啦Kesa!
+重点  记一个 css 样式优先级的顺序
+ 最弱: 最上面个的 css next: 往后的 css ,若 class 均在同一个对象中出现(与放置顺序无关),越往后的会覆盖掉前面的 next: id id 永远比 class 优先级高 next: 行内 style , 这个比前两者都高
+&amp;lt;style&amp;gt; body { background-color: black; font-family: Monospace; color: green; } .pink-text { color: pink; } .blue-text { color: blue; } #orange-text{ color:orange; } &amp;lt;/style&amp;gt; &amp;lt;h1 class=&amp;quot;pink-text blue-text&amp;quot; id=&amp;quot;orange-text&amp;quot;&amp;gt; Hello World! &amp;lt;/h1&amp;gt;   .</description>
     </item>
     
     <item>
