@@ -1,104 +1,198 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Hugo 0.36.1" />
 
 
-<title> - A Hugo website</title>
-<meta property="og:title" content=" - A Hugo website">
+<h2 id="link-rel-stylesheet-href-cdn-bootcss-com-bootstrap-3-3-1-css-bootstrap-min-css"><link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.min.css"/></h2>
 
+<p>title: ⭐️Tech#重学CSS
+author: Kesa
+date: &lsquo;2018-03-12&rsquo;
+slug: tech-css
+categories:
+  - CSS
+tags:
+  - Tech</p>
 
+<h2 id="longterm">- LongTerm</h2>
 
-  
+<h1 id="写在前面">写在前面</h1>
 
+<p>重学系列第三弹<br>
+哈哈挖坑好多啊<br>
+我也不知道为什么这么喜欢挖坑咯<br>
+大概是因为我喜欢倒腾着学习形式的变化吧<br>
+从一开始的额word总结,到MindNode<br>
+再到网页总结方式<br>
+越来越多的方式总有一个目的<br>
+我想记录<br>
+哈哈还是表现欲 &amp; 记录欲的结合呢<br>
+加油啦Kesa!</p>
 
-
-
-
-
-
-<link rel="stylesheet" href="/css/fonts.css" media="all">
-<link rel="stylesheet" href="/css/main.css" media="all">
-
-
-
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="header">
-        <nav class="nav">
-  <a href="/" class="nav-logo">
-    <img src="/images/logo.png"
-         width="50"
-         height="50"
-         alt="Logo">
-  </a>
-
-  <ul class="nav-links">
-    
-    <li><a href="/about/">About</a></li>
-    
-    <li><a href="https://github.com/KesaubeEire">GitHub</a></li>
-    
-  </ul>
-</nav>
-
-      </header>
-
-
-<main class="content" role="main">
-
-  <article class="article">
-    
-    <span class="article-duration">1 min read</span>
-    
-
-    <h1 class="article-title"></h1>
-
-    
-    <span class="article-date">0001/01/01</span>
-    
-
-    <div class="article-content">
-      <p>&mdash; title: 新篇章_算法 &amp; 自己的问题 author: Kesa date: &lsquo;2018-02-27&rsquo; slug: al&amp;self categories: - Plain Text tags: - Plan - ThinkMore - Reflection &mdash;</p>
-
-<p>今天按照计划搞定了两个LeetCode上面的算法题,还行吧,但是严重耽搁了心理学的计划,每天要抓紧搞定这个事情了</p>
-
-<h1>反思环节</h1>
+<h1 id="重点">重点</h1>
 
 <ul>
-  今天和父母生了两次气,原因是我的情绪控制问题,通过总结发现我经常在如下情况下变得烦躁易怒
-  <ol>
+<li><p>记一个 css 样式优先级的顺序</p>
 
-  </ol>
+<ul>
+<li>最弱: 最上面个的 css</li>
+<li>next: 往后的 css ,若 class 均在同一个对象中出现(与放置顺序无关),越往后的会覆盖掉前面的</li>
+<li>next: id id 永远比 class 优先级高</li>
+
+<li><p>next: 行内 style , 这个比前两者都高</p>
+
+<pre><code class="language-CSS">&lt;style&gt;
+body {
+background-color: black;
+font-family: Monospace;
+color: green;
+}
+.pink-text {
+color: pink;
+}
+.blue-text {
+color: blue;
+}
+#orange-text{
+color:orange;
+}
+&lt;/style&gt;
+&lt;h1 class=&quot;pink-text blue-text&quot; id=&quot;orange-text&quot;&gt;
+Hello World!
+&lt;/h1&gt;
+</code></pre>
+
+<p><style>
+.pink-text {
+color: pink;
+}
+.blue-text {
+color: blue;
+}
+#orange-text{
+color:orange;
+}
+</style>
+<h1 class=" blue-text" id="orange-text">Hello World!</h1></p></li>
+
+<li><p>final: 若在某对象中 class 有多个,其中的某一个有某属性后带了 !important,那它最最高</p>
+
+<pre><code class="language-CSS">&lt;style&gt;
+#orange-text {
+color: orange;
+}
+.pink-text {
+color: pink !important;
+}
+.blue-text {
+color: blue;
+}
+&lt;/style&gt;
+&lt;h1 id=&quot;orange-text&quot; class=&quot;pink-text blue-text&quot; style=&quot;color: white&quot;&gt;Hello World!&lt;/h1&gt;
+</code></pre>
+
+<p><style>
+#orange-text {
+color: orange;
+}
+.pink-text {
+color: pink !important;
+}
+.blue-text {
+color: blue;
+}
+</style>
+<h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1></p></li>
+</ul></li>
 </ul>
 
-<p style="color:red"> //在你没有搞懂R MarkDown是个什么玩意儿以前尽量用MarkDown写,会让结构无端地多一个html出来导致整体的md结构变质的 </p>
+<h1 id="日志">日志</h1>
 
-    </div>
-  </article>
+<ul>
+<li><p>18.3.13</p>
 
-  
+<ul>
+<li>颜色
 
+<ul>
+<li>名字</li>
+<li>RGB
 
-</main>
+<ul>
+<li>255 ^ 3 #FFFFFF</li>
+<li>16 ^ 3  #FFF 上面的简化版</li>
+<li>纯粹RGB值 rgb(255,255,255)</li>
+</ul></li>
+</ul></li>
 
-      <footer class="footer">
-        <ul class="footer-links">
-          <li>
-            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
-          </li>
-        </ul>
-      </footer>
+<li><p>WOW bootstrap</p>
 
-    </div>
-    
+<ul>
+<li>引用 Bootstrap
+/* <link rel="stylesheet"href="//cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.min.css"/> */</li>
+<li>图片自适应 class=&ldquo;img-responsive&rdquo;</li>
+<li>按钮 各种新奇的class
 
-    
+<ul>
+<li>btn 基本按钮效果(比一般的按钮效果好)</li>
+<li>btn-block 块状自适应屏幕按钮</li>
+<li>各种颜色的按钮(文本也有对应的,是text-开头)
 
-    
-  </body>
-</html>
+<ul>
+<li>btn-primary 基本深蓝色配置</li>
+<li>btn-info 浅蓝色按钮</li>
+<li>btn-danger 红色预警按钮</li>
+</ul></li>
+</ul></li>
 
+<li><p>表格</p>
+
+<ul>
+<li><p>行状:每行12个单位</p>
+
+<ul>
+<li>顶: div class = &ldquo;row&rdquo;</li>
+<li>每项占领格子数 n: div class=&ldquo;col-xs-n&rdquo;</li>
+<li>内容在子div下</li>
+<li><code>css
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-xs-4&quot;&gt;
+&lt;button class=&quot;btn btn-block btn-primary&quot;&gt;Like&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-xs-4&quot;&gt;
+&lt;button class=&quot;btn btn-block btn-info&quot;&gt;Info&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-xs-4&quot;&gt;
+&lt;button class=&quot;btn btn-block btn-danger&quot;&gt;Delete&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</code></li>
+</ul>
+
+<p>-
+<div class="row">
+<div class="col-xs-4">
+<button class="btn btn-block btn-primary">Like</button>
+</div>
+<div class="col-xs-4">
+<button class="btn btn-block btn-info">Info</button>
+</div>
+<div class="col-xs-4">
+<button class="btn btn-block btn-danger">Delete</button>
+</div>
+</div></p>
+
+<ul>
+<li>asdf</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+
+<li><p>18.3.12</p>
+
+<ul>
+<li>style 的 override</li>
+<li>padding &amp; margin 复习</li>
+<li>ol &amp; ul</li>
+</ul></li>
+</ul>
+
+<h1 id="reference">Reference</h1>
