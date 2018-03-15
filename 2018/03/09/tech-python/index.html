@@ -57,7 +57,7 @@
 
   <article class="article">
     
-    <span class="article-duration">3 min read</span>
+    <span class="article-duration">5 min read</span>
     
 
     <h1 class="article-title">⭐️Tech#重学Python</h1>
@@ -68,6 +68,8 @@
 
     <div class="article-content">
       
+
+<p><link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.min.css"></p>
 
 <p><a href="#每日更新">Here</a></p>
 
@@ -88,6 +90,7 @@ ps.如果出现 &ldquo;- 啊哈&rdquo; <br>那是因为MarkDown的格式问题<b
 <ul>
 <li>可变参数允许你传入0个或任意个参数，这些可变参数在函数调用时自动组装为一个tuple。</li>
 <li>关键字参数允许你传入0个或任意个含参数名的参数，这些关键字参数在函数内部自动组装为一个dict</li>
+<li>关键在于理解 *list 和 **dict 都是干嘛的</li>
 </ul></li>
 <li>给函数换名字,直接赋函数名给想要替换的另一个函数名,无需 &ldquo;&rdquo;,真TM牛逼</li>
 
@@ -288,14 +291,157 @@ Hi, Michael, you have $1000000. Give me 0.01
 <h1 id="每日更新">每日更新</h1>
 
 <ul>
-<li>18.3.15
+<li><p>18.3.15</p>
 
 <ul>
-<li>定义函数
+<li><p>递归函数</p>
+
+<ul>
+<li><strong>汉诺塔的递归实现???</strong>很难想出来</li>
+
+<li><pre><code class="language-python"># 利用递归函数移动汉诺塔:真没看懂
+def move(n, a, b, c):
+    if n == 1:
+        print('move', a, '--&gt;', c)
+    else:
+        move(n-1, a, c, b)
+        move(1, a, b, c)
+        move(n-1, b, a, c)
+move(4, 'A', 'B', 'C')
+</code></pre></li>
+</ul></li>
+
+<li><p>定义函数(倒序学习)</p>
+
+<ul>
+<li>参数组合使用要求:<br>
+在Python中定义函数，可以用
+必选参数、<br>
+默认参数、<br>
+可变参数、<br>
+关键字参数和<br>
+命名关键字参数，<br>
+这5种参数都可以组合使用。<br>
+但是参数定义的顺序必须是：<br>
+<strong>必选参数、默认参数、可变参数、命名关键字参数和关键字参数。</strong></li>
+</ul></li>
+
+<li><pre><code class="language-python"># 比如定义一个函数，包含上述若干种参数：
+def f1(a, b, c=0, *args, **kw):
+  print('a =', a, 'b =', b, 'c =', c, 'args =', args, 'kw =', kw)
+
+def f2(a, b, c=0, *, d, **kw):
+  print('a =', a, 'b =', b, 'c =', c, 'd =', d, 'kw =', kw)
+#
+# 在函数调用的时候，Python解释器自动按照参数位置和参数名把对应的参数传进去。
+#
+&gt;&gt;&gt; f1(1, 2)
+a = 1 b = 2 c = 0 args = () kw = {}
+&gt;&gt;&gt; f1(1, 2, c=3)
+a = 1 b = 2 c = 3 args = () kw = {}
+&gt;&gt;&gt; f1(1, 2, 3, 'a', 'b')
+a = 1 b = 2 c = 3 args = ('a', 'b') kw = {}
+&gt;&gt;&gt; f1(1, 2, 3, 'a', 'b', x=99)
+a = 1 b = 2 c = 3 args = ('a', 'b') kw = {'x': 99}
+&gt;&gt;&gt; f2(1, 2, d=99, ext=None)
+a = 1 b = 2 c = 0 d = 99 kw = {'ext': None}
+&gt;&gt;&gt; args = (1, 2, 3, 4)
+#
+# 最神奇的是通过一个tuple和dict，你也可以调用上述函数：
+#
+&gt;&gt;&gt; kw = {'d': 99, 'x': '#'}
+&gt;&gt;&gt; f1(*args, **kw)
+a = 1 b = 2 c = 3 args = (4,) kw = {'d': 99, 'x': '#'}
+&gt;&gt;&gt; args = (1, 2, 3)
+&gt;&gt;&gt; kw = {'d': 88, 'x': '#'}
+&gt;&gt;&gt; f2(*args, **kw)
+a = 1 b = 2 c = 3 d = 88 kw = {'x': '#'}
+</code></pre>
 
 <ul>
 <li>关键字参数
--</li>
+
+<ul>
+<li>关键字参数允许你传入0个或任意个含参数名的参数，这些关键字参数在函数内部自动组装为一个dict</li>
+</ul></li>
+</ul></li>
+
+<li><pre><code class="language-python">def person(name, age, **kw):
+            print('name:', name, 'age:', age, 'other:', kw)
+###
+# 函数person除了必选参数name和age外，还接受关键字参数kw
+# 在调用该函数时，可以只传入必选参数：
+&gt;&gt;&gt; person('Michael', 30)
+name: Michael age: 30 other: {}
+###
+# 也可以传入任意个数的关键字参数：
+&gt;&gt;&gt; person('Bob', 35, city='Beijing')
+name: Bob age: 35 other: {'city': 'Beijing'}
+&gt;&gt;&gt; person('Adam', 45, gender='M', job='Engineer')
+name: Adam age: 45 other: {'gender': 'M', 'job': 'Engineer'}
+###
+# 若是使用更简化的方法呢
+&gt;&gt;&gt; extra = {'city': 'Beijing', 'job': 'Engineer'}
+&gt;&gt;&gt; person('Jack', 24, **extra)
+name: Jack age: 24 other: {'city': 'Beijing', 'job': 'Engineer'}
+</code></pre>
+
+<ul>
+<li>命名关键字参数
+
+<ul>
+<li>用以上的方法,关键词参数不受限制,但是我们若想知道有哪些关键字</li>
+</ul></li>
+
+<li><pre><code class="language-python">def person(name, age, **kw):
+      if 'city' in kw:  # 有city参数
+        pass
+      if 'job' in kw:   # 有job参数
+        pass
+      print('name:', name, 'age:', age, 'other:', kw)
+###
+# 但是此时仍然没有限制关键字参数
+&gt;&gt;&gt; person('Jack', 24, city='北京', addr='海淀', zipcode=034)
+</code></pre>
+
+<ul>
+<li>如果要限制关键字参数的名字，就可以用命名关键字参数，例如，只接收city和job作为关键字参数。这种方式定义的函数如下：</li>
+</ul></li>
+
+<li><pre><code class="language-python">def person(name, age, *, city, job):
+  print(name, age, city, job)
+###
+# 调用方法如下
+###
+&gt;&gt;&gt; person('Jack', 24, city='Beijing', job='Engineer')
+Jack 24 Beijing Engineer
+###
+# 命名关键字参数必须传入参数名，这和位置参数不同。如果没有传入参数名，调用将报错：
+###
+&gt;&gt;&gt; person('Jack', 24, 'Beijing', 'Engineer')
+Traceback (most recent call last):
+TypeError: person() takes 2 positional arguments but 4 were given
+# 由于调用时缺少参数名city和job，Python解释器把这4个参数均视为位置参数，但person()函数仅接受2个位置参数。
+# 但是你要是不打那两个key-word,也不设置默认值,也是不识别的
+TypeError: person() missing 2 required keyword-only arguments: 'city' and 'job'
+###
+###
+# 命名关键字参数可以有缺省值，从而简化调用：
+###
+def person(name, age, *, city='Beijing', job):
+  print(name, age, city, job)
+# 由于命名关键字参数city具有默认值，调用时，可不传入city参数：
+&gt;&gt;&gt; person('Jack', 24, job='Engineer')
+Jack 24 Beijing Engineer
+###
+# 使用命名关键字参数时，要特别注意，如果没有可变参数，就必须加一个*作为特殊分隔符。如果缺少*，Python解释器将无法识别位置参数和命名关键字参数：
+###
+def person(name, age, city, job):
+    # 缺少 *，city和job被视为位置参数
+    pass
+</code></pre>
+
+<p>-</p></li>
 </ul></li>
 </ul></li>
 
