@@ -57,7 +57,7 @@
 
   <article class="article">
     
-    <span class="article-duration">2 min read</span>
+    <span class="article-duration">3 min read</span>
     
 
     <h1 class="article-title">⭐️Tech#重学CSS</h1>
@@ -68,6 +68,10 @@
 
     <div class="article-content">
       
+
+<!-- Font Awesome 的图标库 -->
+
+<p><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css"/></p>
 
 <h1 id="写在前面">写在前面</h1>
 
@@ -85,16 +89,18 @@
 <h1 id="重点">重点</h1>
 
 <ul>
-<li><p>记一个 css 样式优先级的顺序</p>
+<li>Font Awesome 这个方便的图标库</li>
+<li>Bootstrap 的 btn 属性 和 颜色相关的几个 class值</li>
+<li>记一个 css 样式优先级的顺序
 
 <ul>
 <li>最弱: 最上面个的 css</li>
 <li>next: 往后的 css ,若 class 均在同一个对象中出现(与放置顺序无关),越往后的会覆盖掉前面的</li>
 <li>next: id id 永远比 class 优先级高</li>
+<li>next: 行内 style , 这个比前两者都高</li>
+</ul></li>
 
-<li><p>next: 行内 style , 这个比前两者都高</p>
-
-<pre><code class="language-CSS">&lt;style&gt;
+<li><pre><code class="language-CSS">&lt;style&gt;
 body {
 background-color: black;
 font-family: Monospace;
@@ -116,21 +122,24 @@ Hello World!
 </code></pre>
 
 <p><style>
-.pink-text {
-color: pink;
-}
-.blue-text {
-color: blue;
-}
-#orange-text{
-color:orange;
-}
-</style>
-<h1 class=" blue-text" id="orange-text">Hello World!</h1></p></li>
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+  #orange-text{
+    color:orange;
+  }</p>
 
-<li><p>final: 若在某对象中 class 有多个,其中的某一个有某属性后带了 !important,那它最最高</p>
+<p></style>
+<h1 class=" blue-text" id="orange-text">Hello World!</h1></p>
 
-<pre><code class="language-CSS">&lt;style&gt;
+<ul>
+<li>final: 若在某对象中 class 有多个,其中的某一个有某属性后带了 !important,那它最最高</li>
+</ul></li>
+
+<li><pre><code class="language-CSS">&lt;style&gt;
 #orange-text {
 color: orange;
 }
@@ -154,14 +163,203 @@ color: pink !important;
 .blue-text {
 color: blue;
 }
+h2 {
+font-family: Lobster, Monospace;
+}
 </style>
 <h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1></p></li>
-</ul></li>
 </ul>
 
 <h1 id="日志">日志</h1>
 
 <ul>
+<li><p>18.3.15</p>
+
+<ul>
+<li>jQuery 简略学习
+
+<ul>
+<li>搞一个 CSS HTML Bootstranp + jQuery PlayGround</li>
+<li>用 &ldquo;#233&rdquo; 各种标注可替换的button上的名字</li>
+<li>脚本写的方式
+
+<ul>
+<li>用 $ 为每句话开头</li>
+</ul></li>
+</ul></li>
+</ul></li>
+
+<li><pre><code class="language-HTML">&lt;h3 class=&quot;text-primary text-center&quot;&gt;jQuery Playground&lt;/h3&gt;
+</code></pre>
+
+<p><script>
+$(document).ready(function() {
+$(&ldquo;button&rdquo;).addClass(&ldquo;animated bounce&rdquo;);
+});
+</script>
+<!-- Only change code above this line -->
+<div class="container-fluid">
+<h3 class="text-primary text-center">jQuery Playground</h3>
+<div class="row">
+<div class="col-xs-6">
+  <h4>#left-well</h4>
+  <div class="well" id="left-well">
+    <button class="btn btn-default target"id="target1">#target1</button>
+    <button class="btn btn-default target"id="target2">#target2</button>
+    <button class="btn btn-default target"id="target3">#target3</button>
+  </div>
+</div>
+<div class="col-xs-6">
+  <h4>#right-well</h4>
+  <div class="well" id="right-well">
+    <button class="btn btn-default target"id="target4">#target4</button>
+    <button class="btn btn-default target"id="target5">#target5</button>
+    <button class="btn btn-default target"id="target6">#target6</button>
+  </div>
+</div>
+</div>
+</div></p>
+
+<ul>
+<li>整个bootstrap的布局应用 =&gt; 表单
+<br></li>
+</ul></li>
+</ul>
+
+<pre><code class="language-html">&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-xs-6&quot;&gt; &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;indoor-outdoor&quot;&gt; Indoor&lt;/label&gt;&lt;/div&gt;
+  &lt;div class=&quot;col-xs-6&quot;&gt; &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;indoor-outdoor&quot;&gt; Outdoor&lt;/label&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p><br>
+<div class="row">
+  <div class="col-xs-6"> <label><input type="radio" name="indoor-outdoor"> Indoor</label></div>
+  <div class="col-xs-6"> <label><input type="radio" name="indoor-outdoor"> Outdoor</label></div>
+</div>
+<br></p>
+
+<pre><code class="language-HTML">&lt;div class=&quot;col-xs-4&quot;&gt; &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;personality&quot;&gt; Loving&lt;/label&gt;&lt;/div&gt;
+&lt;div class=&quot;col-xs-4&quot;&gt; &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;personality&quot;&gt; Lazy&lt;/label&gt;&lt;/div&gt;
+&lt;div class=&quot;col-xs-4&quot;&gt; &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;personality&quot;&gt; Crazy&lt;/label&gt;&lt;/div&gt;
+</code></pre>
+
+<p><br>
+<div class="row">
+<div class="col-xs-4"> <label><input type="checkbox" name="personality"> Loving</label></div>
+<div class="col-xs-4"> <label><input type="checkbox" name="personality"> Lazy</label></div>
+<div class="col-xs-4"> <label><input type="checkbox" name="personality"> Crazy</label></div>
+</div>
+<br><br></p>
+
+<pre><code class="language-html">&lt;form action=&quot;/submit-cat-photo&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-xs-6&quot;&gt;
+        &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;indoor-outdoor&quot;&gt; Indoor&lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-xs-6&quot;&gt;
+        &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;indoor-outdoor&quot;&gt; Outdoor&lt;/label&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-xs-4&quot;&gt;
+        &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;personality&quot;&gt; Loving&lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-xs-4&quot;&gt;
+        &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;personality&quot;&gt; Lazy&lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-xs-4&quot;&gt;
+        &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;personality&quot;&gt; Crazy&lt;/label&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;input type=&quot;text&quot; placeholder=&quot;cat photo URL&quot; required&gt;
+    &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+  &lt;/form&gt;
+</code></pre>
+
+<p><form action="/submit-cat-photo">
+  <div class="row">
+    <div class="col-xs-6">
+      <label><input type="radio" name="indoor-outdoor"> Indoor</label>
+    </div>
+    <div class="col-xs-6">
+      <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4">
+      <label><input type="checkbox" name="personality"> Loving</label>
+    </div>
+    <div class="col-xs-4">
+      <label><input type="checkbox" name="personality"> Lazy</label>
+    </div>
+    <div class="col-xs-4">
+      <label><input type="checkbox" name="personality"> Crazy</label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-7"> <input type="text" class="form-control" placeholder="cat photo URL" required></div>
+    <div class="col-xs-5"> <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Submit</button></div>
+  </div>
+</form><br><br></p>
+
+<ul>
+<li><p>18.3.14</p>
+
+<ul>
+<li><p>Font Awesome svg 图标库</p>
+
+<ul>
+<li><!-- <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css"/> --><strong>这里的代码注释了,请看MarkDown原码</strong></li>
+<li>&lt;i&gt; 元素被改为了图标的Tag, 将 Font Awesome 中的图标显示在这里用 class
+
+<ul>
+<li>eg:  &lt;i class=&ldquo;fa fa-info-circle&rdquo;&gt;&lt;/i&gt; =&gt; <i class="fa fa-info-circle">哈哈</i></li>
+<li>eg;  &lt;i class=&ldquo;fa fa-thumbs-up&rdquo;&gt;&lt;/i&gt; =&gt; <i class="fa fa-thumbs-up">哈哈</i></li>
+<li>eg;  &lt;i class=&ldquo;fa fa-trash&rdquo;&gt;&lt;/i&gt; =&gt; <i class="fa fa-trash">哈哈</i></li>
+</ul></li>
+</ul></li>
+
+<li><p>将一行的元素排列:
+-<div class="row">
+<div class="col-xs-8">
+<h2 class="text-primary text-center" style=" font-family: Baskerville,Centaur,Lobster, Monospace;">CatPhotoApp</h2>
+</div>
+<div class="col-xs-4">
+<a href="#"><img class="img-responsive thick-green-border" style="border-color: green;
+border-width: 10px;
+border-style: solid;
+border-radius: 50%;" src="https://freecodecamp.cn/images/relaxing-cat.jpg"></a>
+</div>
+</div></p></li>
+
+<li><pre><code class="language-HTML">&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-xs-8&quot;&gt;
+&lt;h2 class=&quot;text-primary text-center&quot; style=&quot; font-family: Baskerville,Centaur,Lobster, Monospace;&quot;&gt;CatPhotoApp&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-xs-4&quot;&gt;
+&lt;a href=&quot;#&quot;&gt;&lt;img class=&quot;img-responsive thick-green-border&quot; style=&quot;border-color: green;
+border-width: 10px;
+border-style: solid;
+border-radius: 50%;&quot; src=&quot;https://freecodecamp.cn/images/relaxing-cat.jpg&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</code></pre></li>
+
+<li><p>span 标签:行内的 分块标签,相当于一行内的 &lt;div&gt;,专门把一行内的事物分割开来</p>
+
+<ul>
+<li><p>Things cats  <span class="text-danger"> love </span>:</p></li>
+</ul></li>
+
+<li><pre><code class="language-HTML">  &lt;p&gt;Things cats  &lt;span class=&quot;text-danger&quot;&gt; love &lt;/span&gt;:&lt;/p&gt;
+</code></pre>
+
+<ul>
+<li>shime</li>
+</ul></li>
+</ul></li>
+
 <li><p>18.3.13</p>
 
 <ul>
@@ -177,8 +375,7 @@ color: blue;
 <li>纯粹RGB值 rgb(255,255,255)</li>
 </ul></li>
 </ul></li>
-
-<li><p>WOW bootstrap</p>
+<li>WOW bootstrap
 
 <ul>
 <li>引用 Bootstrap
@@ -197,18 +394,22 @@ color: blue;
 <li>btn-danger 红色预警按钮</li>
 </ul></li>
 </ul></li>
-
-<li><p>表格</p>
+<li>表格
 
 <ul>
-<li><p>行状:每行12个单位</p>
+<li>行状:每行12个单位
 
 <ul>
 <li>顶: div class = &ldquo;row&rdquo;</li>
 <li>每项占领格子数 n: div class=&ldquo;col-xs-n&rdquo;</li>
 <li>内容在子div下</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
 
-<li><pre><code class="language-css">&lt;div class=&quot;row&quot;&gt;
+<pre><code class="language-html">&lt;div class=&quot;row&quot;&gt;
 &lt;div class=&quot;col-xs-4&quot;&gt;
 &lt;button class=&quot;btn btn-block btn-primary&quot;&gt;Like&lt;/button&gt;
 &lt;/div&gt;
@@ -221,7 +422,6 @@ color: blue;
 &lt;/div&gt;
 </code></pre>
 
-<p>-
 <div class="row">
 <div class="col-xs-4">
 <button class="btn btn-block btn-primary">Like</button>
@@ -232,15 +432,10 @@ color: blue;
 <div class="col-xs-4">
 <button class="btn btn-block btn-danger">Delete</button>
 </div>
-</div></p></li>
+</div>
 
-<li><p>asdf</p></li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul></li>
-
-<li><p>18.3.12</p>
+<ul>
+<li>18.3.12
 
 <ul>
 <li>style 的 override</li>
@@ -333,6 +528,9 @@ color: blue;
 
 
     
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
 
     
   </body>

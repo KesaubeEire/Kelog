@@ -27,9 +27,7 @@
 我想记录
 哈哈还是表现欲 &amp;amp; 记录欲的结合呢
 加油啦Kesa!
-重点  记一个 css 样式优先级的顺序
- 最弱: 最上面个的 css next: 往后的 css ,若 class 均在同一个对象中出现(与放置顺序无关),越往后的会覆盖掉前面的 next: id id 永远比 class 优先级高 next: 行内 style , 这个比前两者都高
-&amp;lt;style&amp;gt; body { background-color: black; font-family: Monospace; color: green; } .pink-text { color: pink; } .blue-text { color: blue; } #orange-text{ color:orange; } &amp;lt;/style&amp;gt; &amp;lt;h1 class=&amp;quot;pink-text blue-text&amp;quot; id=&amp;quot;orange-text&amp;quot;&amp;gt; Hello World! &amp;lt;/h1&amp;gt;   .</description>
+重点  Font Awesome 这个方便的图标库 Bootstrap 的 btn 属性 和 颜色相关的几个 class值 记一个 css 样式优先级的顺序  最弱: 最上面个的 css next: 往后的 css ,若 class 均在同一个对象中出现(与放置顺序无关),越往后的会覆盖掉前面的 next: id id 永远比 class 优先级高 next: 行内 style , 这个比前两者都高  &amp;lt;style&amp;gt; body { background-color: black; font-family: Monospace; color: green; } .pink-text { color: pink; } .blue-text { color: blue; } #orange-text{ color:orange; } &amp;lt;/style&amp;gt; &amp;lt;h1 class=&amp;quot;pink-text blue-text&amp;quot; id=&amp;quot;orange-text&amp;quot;&amp;gt; Hello World!</description>
     </item>
     
   </channel>

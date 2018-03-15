@@ -17,7 +17,8 @@
       <pubDate>Fri, 09 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/03/09/tech-python/</guid>
-      <description>写在前面: 本文为长期更新篇,主要是记录一下自己重新学习python的过程
+      <description>Here
+写在前面: 本文为长期更新篇,主要是记录一下自己重新学习python的过程
 记录内容主要是学习内容和学习心得 以往总是用MindNode
 但是感觉以我一个强迫症患者的话 又是记得满满的又懒得重看 还是这样将就一哈
 还有一个必须回头做的事情
@@ -25,15 +26,12 @@
 ps.如果出现 &amp;ldquo;- 啊哈&amp;rdquo; 那是因为MarkDown的格式问题
 在列表代码分支下必须有一个同级分支
 否则会格式错误,见谅
-不会的重点  可变对象 和 不可变对象
+不会的重点  可变参数 &amp;amp; 关键字参数  可变参数允许你传入0个或任意个参数，这些可变参数在函数调用时自动组装为一个tuple。 关键字参数允许你传入0个或任意个含参数名的参数，这些关键字参数在函数内部自动组装为一个dict  给函数换名字,直接赋函数名给想要替换的另一个函数名,无需 &amp;ldquo;&amp;rdquo;,真TM牛逼 可变对象 和 不可变对象
  对于可变对象的操作是直接作用在对象本身的 &amp;gt;&amp;gt;&amp;gt; a = [&#39;c&#39;, &#39;b&#39;, &#39;a&#39;] &amp;gt;&amp;gt;&amp;gt; a.sort() &amp;gt;&amp;gt;&amp;gt; a [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;]  而对于不可变对象的操作对对象本身没有影响
 而是返回一个复制值再进行操作
  &amp;gt;&amp;gt;&amp;gt; a = &#39;abc&#39; &amp;gt;&amp;gt;&amp;gt; b = a.replace(&#39;a&#39;, &#39;A&#39;) &amp;gt;&amp;gt;&amp;gt; b &#39;Abc&#39; &amp;gt;&amp;gt;&amp;gt; a &#39;abc&#39;  可变对象有: list,dict
 不可变对象有:int,string,float,tuple
-  dict 和 set
- set 简单粗暴的Hashset
- api
- set_object.</description>
+  dict 和 set</description>
     </item>
     
   </channel>
