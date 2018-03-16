@@ -57,7 +57,7 @@
 
   <article class="article">
     
-    <span class="article-duration">5 min read</span>
+    <span class="article-duration">6 min read</span>
     
 
     <h1 class="article-title">⭐️Tech#重学Python</h1>
@@ -291,6 +291,71 @@ Hi, Michael, you have $1000000. Give me 0.01
 <h1 id="每日更新">每日更新</h1>
 
 <ul>
+<li><p>18.3.16</p>
+
+<ul>
+<li><p>高级函数特性_迭代</p>
+
+<ul>
+<li><p>说白了就是for循环进入所有可迭代的对象中,list tuple dict</p>
+
+<ul>
+<li><p>对 dict :</p>
+
+<ul>
+<li>一般是按照 key 进行迭代</li>
+</ul>
+
+<pre><code class="language-python"># 默认
+&gt;&gt;&gt; for key in d:
+  print(key)
+# 若要按照 value 进行迭代,用
+for value in d.values():
+# 若同时迭代 key 和 value,可以:
+for k, v in d.items():
+</code></pre></li>
+
+<li><p>判断某变量是否可迭代</p>
+
+<ul>
+<li><pre><code class="language-python">&gt;&gt;&gt; from collections import Iterable
+&gt;&gt;&gt; isinstance('abc', Iterable) # str是否可迭代
+True
+&gt;&gt;&gt; isinstance([1,2,3], Iterable) # list是否可迭代
+True
+&gt;&gt;&gt; isinstance(123, Iterable) # 整数是否可迭代
+False
+</code></pre></li>
+
+<li></li>
+</ul></li>
+</ul></li>
+</ul></li>
+
+<li><p>高级函数特性_切片</p>
+
+<ul>
+<li><p>在 list tuple string 中截取部分元素的方式</p>
+
+<ul>
+<li><p>返回的仍然是 list tuple 和 string</p>
+
+<pre><code class="language-python"># L[0:3]表示，从索引0开始取，直到索引3为止，但不包括索引3。
+# 即索引0，1，2，正好是3个元素。
+# 如果第一个索引是0，还可以省略
+&gt;&gt;&gt; L = ['Michael', 'Sarah', 'Tracy', 'Bob', 'Jack']
+&gt;&gt;&gt; L[0:3]
+['Michael', 'Sarah', 'Tracy']
+# 倒数切片
+&gt;&gt;&gt; L[-2:]
+['Bob', 'Jack']
+&gt;&gt;&gt; L[-2:-1]
+['Bob']
+</code></pre></li>
+</ul></li>
+</ul></li>
+</ul></li>
+
 <li><p>18.3.15</p>
 
 <ul>
