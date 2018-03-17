@@ -75,6 +75,8 @@
 <!-- 引用 Bootstrap -->
 <link rel="stylesheet"href="//cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.min.css"/></p>
 
+<p><a href="#日志">飞到日志部分</a></p>
+
 <h1 id="补充">补充</h1>
 
 <p>因为学的东西越来越多了<br>
@@ -184,23 +186,97 @@ font-family: Lobster, Monospace;
 <h1 id="日志">日志</h1>
 
 <ul>
-<li>18.3.16
+<li>18.3.17 结束jQuery
+
+<ul>
+<li>$(&ldquo;body&rdquo;).addClass(&ldquo;animated fadeOut&rdquo;);
+<br><strong>fadeOut 淡出</strong></li>
+<li>$(&ldquo;body&rdquo;).addClass(&ldquo;animated hinge&rdquo;);
+<br><strong>hinge 90度选择淡出</strong></li>
+</ul></li>
+
+<li><p>18.3.16</p>
 
 <ul>
 <li>继续 jQuery 简略学习</li>
-<li>选择器
+
+<li><p>选择器</p>
 
 <ul>
 <li>元素选择器：$(&ldquo;button&rdquo;)</li>
 <li>class选择器：$(&ldquo;.btn&rdquo;)</li>
 <li>id选择器：$(&ldquo;#target1&rdquo;)</li>
+
+<li><p>多项选择</p>
+
+<ul>
+<li>$(&ldquo;.target(class名称,id尚未试过,下同):nth-child(n)&ldquo;) <br>
+CSS选择器允许你按照索引顺序(从1开始)选择目标元素的所有子元素。
+<br>
+我的理解是看到和名称相同的就开始计数,当父物体结束后计数归零,直到再次遇到名称相同的类</li>
+</ul>
+
+<pre><code class="language-Python">$(&quot;.target:nth-child(2)&quot;).addClass(&quot;animated bounce&quot;);
+</code></pre>
+
+<ul>
+<li>$(&ldquo;.target:nth-child(2)&ldquo;) <br>
+$(&ldquo;.target:nth-child(2)&ldquo;) <br>
+选择奇数个或者偶数个</li>
+</ul>
+
+<pre><code class="language-Python">$(&quot;.target:nth-child(2)&quot;).addClass(&quot;animated bounce&quot;);
+$(&quot;.target:even&quot;).addClass(&quot;animated shake&quot;);
+</code></pre></li>
 </ul></li>
-<li>方法
+
+<li><p>方法</p>
 
 <ul>
 <li>.addClass(&ldquo;class名&rdquo;) 为选择器的结果添加class</li>
+<li>.remove() 删除选择
+
+<ul>
+<li>like:     <code>$(&quot;#target4&quot;).remove();</code></li>
+</ul></li>
 <li>.removeClass(&ldquo;class名&rdquo;) 为选择器的结果删除class</li>
-<li>.css(&ldquo;属性&rdquo;,&ldquo;值&rdquo;) 更改选择器的结果的css的相应属性的值</li>
+
+<li><p>.css(&ldquo;属性&rdquo;,&ldquo;值&rdquo;) 更改选择器的结果的css的相应属性的值</p>
+
+<ul>
+<li>like</li>
+</ul>
+
+<pre><code class="language-Python">$(&quot;#target1&quot;).parent().css(&quot;background-color&quot;, &quot;red&quot;)
+</code></pre></li>
+
+<li><p>.prop(&ldquo;操作&rdquo;,值)</p>
+
+<ul>
+<li>我们是这样来让按钮不可选的:
+
+<ul>
+<li><code>$(&quot;button&quot;).prop(&quot;disabled&quot;, true);</code></li>
+</ul></li>
+</ul></li>
+
+<li><p>.html(&ldquo;内容&rdquo;) 添加HTML标签和文字到元素，而元素之前的内容都会被方法的内容所替换掉。</p></li>
+
+<li><p>.text(&ldquo;内容&rdquo;) 把传进来的任何东西(包括标记)当成文本来显示,同样替换掉原来标签里的内容</p></li>
+
+<li><p>.appendTo(&rdquo; 目标id或class &ldquo;) 将被选择移动到目标class或id下</p></li>
+
+<li><p>.clone() 复制某被选择</p></li>
+
+<li><p>.clone().appendTo() 复制被选择到目标class或id下</p>
+
+<ul>
+<li>这样连起来玩叫做 方法链 function chain</li>
+</ul></li>
+
+<li><p>.parent() 访问父元素,非常6</p></li>
+
+<li><p>.chlidren() 访问子元素,更是6</p></li>
 </ul></li>
 </ul></li>
 
