@@ -23,7 +23,13 @@
 基于Tag或者自己往进填链接的方式
 估计也就是大概在两周之内学到那个部分吧
 噶油
-重点提点 日志  18.3.17  使用CodePen实战(还没怎么玩呢就没什么时间了)   </description>
+重点提点  CSS的垂直居中问题
+日志 18.3.18
+ 跳过了两个CodePen的实战,以后一定记得完成 准备学习JS(delay)  18.3.17
+ 使用CodePen实战(还没怎么玩呢就没什么时间了)
+ 第一个模仿 记得总结垂直居中的问题
+ margin-right: auto; margin-left: auto;  记住了
+     </description>
     </item>
     
     <item>
