@@ -6,10 +6,19 @@
     <description>Recent content in Longterm on Kesa-Kelog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/longterm/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>🎮Game#ERROR_AI</title>
+      <link>/2018/03/19/game-error-ai/</link>
+      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/03/19/game-error-ai/</guid>
+      <description> Log in GameMade  18.3.19  A:找美术资源  放弃像素风,转到low-poly  B:找UI资源  Sci Fi UI  C:找代码漏洞  找几个包,有fps的,提前告诉我,我下载好    </description>
+    </item>
     
     <item>
       <title>⭐️Tech#重学CSS_02</title>
@@ -17,19 +26,24 @@
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/03/16/tech-css-02/</guid>
-      <description> 写在前面 目前没有想好多长时间换一次这个版面
+      <description>写在前面 目前没有想好多长时间换一次这个版面
 大概是一周新开一个CSS的网页吧
 那么我就得赶快搞出来咯
 基于Tag或者自己往进填链接的方式
 估计也就是大概在两周之内学到那个部分吧
 噶油
 重点提点  CSS的垂直居中问题
-日志 18.3.18
- 跳过了两个CodePen的实战,以后一定记得完成 准备学习JS(delay)  18.3.17
- 使用CodePen实战(还没怎么玩呢就没什么时间了)
- 第一个模仿 记得总结垂直居中的问题
- margin-right: auto; margin-left: auto;  记住了
-     </description>
+日志 18.3.20 end at 172
+ 一大堆各种初级语法的学习,略  转义 字符串  +号 连接 .length 字符串长度 JS只有字符串类型,没有字符类型,获取字符使用&amp;rdquo;字符串变量[索引]&amp;ldquo;的形式 字符串不可变,不能利用索引更改某个索引的值来改变整个字符串,改变整个字符串的唯一方法是重新赋值给该字符串变量  数组  &amp;ldquo;以左方括号[开始定义一个数组，以右方括号]结束定义，并把每个条目之间用逗号隔开&amp;rdquo;
+var sandwich = [&amp;quot;peanut butter&amp;quot;, &amp;quot;jelly&amp;quot;, &amp;quot;bread&amp;quot;] 多维数组即 [[23],[12],[312],[[21],[321]]]酱紫的    18.3.19 正式开始学习JS
+ JS  注释: //(单行) &amp;amp; /**/(多行) 数据类型  undefined（未定义）
+null（空）
+boolean（布尔型）
+string（字符串）
+symbol(符号)
+number（数字）
+object（对象）
+  变量 var  类型: 命名:Variable(变量)的名字可以由数字、字母、$或者 _组成,但是不能包含空格或者以数字为首。 各种加减乘除余数 += -= *= /=    18.</description>
     </item>
     
     <item>

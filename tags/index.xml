@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Kesa-Kelog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Emotion</title>
       <link>/tags/emotion/</link>
-      <pubDate>Sun, 18 Mar 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 20 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/emotion/</guid>
       <description></description>
@@ -23,7 +23,7 @@
     <item>
       <title>Longterm</title>
       <link>/tags/longterm/</link>
-      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/longterm/</guid>
       <description></description>
@@ -32,7 +32,7 @@
     <item>
       <title>Plan</title>
       <link>/tags/plan/</link>
-      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 20 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/plan/</guid>
       <description></description>
@@ -62,6 +62,15 @@
       <pubDate>Sat, 17 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/thinkmore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Works_logs</title>
+      <link>/tags/works_logs/</link>
+      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/works_logs/</guid>
       <description></description>
     </item>
     

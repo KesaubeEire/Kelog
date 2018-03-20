@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Works_logs on Kesa-Kelog</title>
+    <link>/tags/works_logs/</link>
+    <description>Recent content in Works_logs on Kesa-Kelog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/works_logs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>🎮Game#ERROR_AI</title>
+      <link>/2018/03/19/game-error-ai/</link>
+      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/03/19/game-error-ai/</guid>
+      <description> Log in GameMade  18.3.19  A:找美术资源  放弃像素风,转到low-poly  B:找UI资源  Sci Fi UI  C:找代码漏洞  找几个包,有fps的,提前告诉我,我下载好    </description>
+    </item>
+    
+  </channel>
+</rss>
