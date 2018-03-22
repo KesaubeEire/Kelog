@@ -33,14 +33,10 @@
 估计也就是大概在两周之内学到那个部分吧
 噶油
 重点提点  CSS的垂直居中问题
-日志 18.3.21 end at 183
- 数组  &amp;ldquo;以左方括号[开始定义一个数组，以右方括号]结束定义，并把每个条目之间用逗号隔开&amp;rdquo;
-var sandwich = [&amp;quot;peanut butter&amp;quot;, &amp;quot;jelly&amp;quot;, &amp;quot;bread&amp;quot;] 多维数组即 [[23],[12],[312],[[21],[321]]]酱紫的 数组是可变的(这里和python一模一样) 数组的栈和队列  将数据推入数组的最后一位 array.push(); 将数据最后一个数据推出,有被推出数据的返回值 array.pop(); 将数据推入数组的第一位 array.unshift(); 将数据第一个数据推出,有被推出数据的返回值 array.shift();   函数
- 创建和调用 控制台输出 console.log(contents); 全局变量 和 局部变量
- 函数外的变量 和 函数内没经过 var 声明的变量都是全局变量
- 还有一种方式:使用window全局对象来声明，全局对象的属性对应也是全局变量，详细如下：
-window.test; window.test = 5;  aha
-  函数内的 var 声明的变量是 局部变量</description>
+日志 18.3.22
+ 数据结构  队列(就一道题而已)  boolean数据类型(bool)  true &amp;amp; false  if语句  判断相等  相等操作符 ( == ): 自动转化成相等的数据类型后比较,相等时返回 true, 否则返回false 严格相等运算符 ( === ): 同时比较数据类型 和 数据,都相等时返回 true, 否则返回false 不相等运算符 (!=):
+自动转化成相等的数据类型后比较,相等时返回 false, 否则返回true 严格不相等运算符 (!==):
+同时比较数据类型 和 数据,都相等时返回 false, 否则返回true 大于小于大于等于小于等于  条件 and || else if &amp;amp;&amp;amp; else  switch 语句  18.3.21 end at 183</description>
     </item>
     
     <item>
