@@ -33,10 +33,11 @@
 估计也就是大概在两周之内学到那个部分吧
 噶油
 重点提点  CSS的垂直居中问题
-日志 18.3.22
- 数据结构  队列(就一道题而已)  boolean数据类型(bool)  true &amp;amp; false  if语句  判断相等  相等操作符 ( == ): 自动转化成相等的数据类型后比较,相等时返回 true, 否则返回false 严格相等运算符 ( === ): 同时比较数据类型 和 数据,都相等时返回 true, 否则返回false 不相等运算符 (!=):
-自动转化成相等的数据类型后比较,相等时返回 false, 否则返回true 严格不相等运算符 (!==):
-同时比较数据类型 和 数据,都相等时返回 false, 否则返回true 大于小于大于等于小于等于  条件 and || else if &amp;amp;&amp;amp; else  switch 语句  18.3.21 end at 183</description>
+日志 18.3.23
+ JSON(JavaScript Object Notation)
+ 使用js对象的格式来存储数据,like
+var myMusic = [{ // 专辑一 &amp;quot;artist&amp;quot;: &amp;quot;Billy Joel&amp;quot;, &amp;quot;title&amp;quot;: &amp;quot;Piano Man&amp;quot;, &amp;quot;release_year&amp;quot;: 1973, &amp;quot;formats&amp;quot;: [&amp;quot;CS&amp;quot;,&amp;quot;8T&amp;quot;,&amp;quot;LP&amp;quot;], &amp;quot;gold&amp;quot;: true }, // 大括号之间用逗号隔开 { // 专辑二 &amp;quot;artist&amp;quot;: &amp;quot;fuxk off&amp;quot;, &amp;quot;title&amp;quot;: &amp;quot;fuxkuoff&amp;quot;, &amp;quot;release_year&amp;quot;: 19703, &amp;quot;formats&amp;quot;: [&amp;quot;Yes&amp;quot;, &amp;quot;Your&amp;quot;, &amp;quot;Ass&amp;quot;] } ];  JSON的嵌套和嵌套的访问,Like
+/ 初始化变量 var myPlants = [ { type: &amp;quot;flowers&amp;quot;, list: [ &amp;quot;rose&amp;quot;, &amp;quot;tulip&amp;quot;, &amp;quot;dandelion&amp;quot; ] }, { type: &amp;quot;trees&amp;quot;, list: [ &amp;quot;fir&amp;quot;, &amp;quot;pine&amp;quot;, &amp;quot;birch&amp;quot; ] } ]; // 请只修改这条注释以下的代码 // 请修改这一行 var secondTree = myPlants[1].</description>
     </item>
     
     <item>

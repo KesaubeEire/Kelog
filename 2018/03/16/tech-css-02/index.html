@@ -57,7 +57,7 @@
 
   <article class="article">
     
-    <span class="article-duration">1 min read</span>
+    <span class="article-duration">2 min read</span>
     
 
     <h1 class="article-title">⭐️Tech#重学CSS_02</h1>
@@ -91,6 +91,118 @@
 
 <h1 id="日志">日志</h1></li>
 
+<li><p>18.3.23</p>
+
+<ul>
+<li><p>JSON(JavaScript Object Notation)</p>
+
+<ul>
+<li><p>使用js对象的格式来存储数据,like</p>
+
+<pre><code class="language-JavaScript">var myMusic = [{
+// 专辑一
+&quot;artist&quot;: &quot;Billy Joel&quot;,
+&quot;title&quot;: &quot;Piano Man&quot;,
+&quot;release_year&quot;: 1973,
+&quot;formats&quot;: [&quot;CS&quot;,&quot;8T&quot;,&quot;LP&quot;],
+&quot;gold&quot;: true
+},
+// 大括号之间用逗号隔开
+{
+// 专辑二
+&quot;artist&quot;: &quot;fuxk off&quot;,
+&quot;title&quot;: &quot;fuxkuoff&quot;,
+&quot;release_year&quot;: 19703,
+&quot;formats&quot;: [&quot;Yes&quot;, &quot;Your&quot;, &quot;Ass&quot;]
+}
+];
+</code></pre></li>
+
+<li><p>JSON的嵌套和嵌套的访问,Like</p>
+
+<pre><code class="language-Json">/ 初始化变量
+var myPlants = [
+{
+type: &quot;flowers&quot;,
+list: [
+&quot;rose&quot;,
+&quot;tulip&quot;,
+&quot;dandelion&quot;
+]
+},
+{
+type: &quot;trees&quot;,
+list: [
+&quot;fir&quot;,
+&quot;pine&quot;,
+&quot;birch&quot;
+]
+}  
+];
+// 请只修改这条注释以下的代码
+// 请修改这一行
+var secondTree = myPlants[1].list[1];
+</code></pre></li>
+
+<li><p>操作JSON <strong>没有延展</strong></p></li>
+</ul></li>
+
+<li><p>写个算法 21点,没搞定咋玩</p></li>
+
+<li><p>object 面向对象咯</p>
+
+<ul>
+<li>访问对象属性方式
+
+<ul>
+<li>&rsquo;.&rsquo;</li>
+<li>&lsquo;[ ]&rsquo;
+
+<ul>
+<li>如果你想访问的属性的名称有一个空格，这时你只能使用中括号操作符([])。若是字符串别忘了引号</li>
+<li>中括号操作符的另一个使用方式是用变量来访问一个属性。当你需要遍历对象的属性列表或查表时，这种方式极为有用。</li>
+</ul></li>
+</ul></li>
+<li>修改和添加对象属性
+
+<ul>
+<li><code>ourDog[&quot;bark&quot;] = &quot;bow-wow&quot;;</code>直接加</li>
+</ul></li>
+<li>删除对象属性
+
+<ul>
+<li><code>delete ourDog.bark;</code></li>
+</ul></li>
+
+<li><p>使用对象的&rdquo;键值对&rdquo;形式</p>
+
+<ul>
+<li><p>like 这种用法</p>
+
+<pre><code class="language-JavaScript">function phoneticLookup(val) {
+// 请只修改这条注释以下的代码
+var result = {
+&quot;alpha&quot;:&quot;Adams&quot;,
+&quot;bravo&quot;:&quot;Boston&quot;,
+&quot;charlie&quot;:&quot;Chicago&quot;,
+&quot;delta&quot;:&quot;Denver&quot;,
+&quot;echo&quot;:&quot;Easy&quot;,
+&quot;foxtrot&quot;:&quot;Frank&quot;
+};
+// 请只修改这条注释以上的代码
+return result[val];
+}
+// 你可以修改这一行来测试你的代码
+phoneticLookup(&quot;charlie&quot;);
+</code></pre></li>
+
+<li><p>========\/\/\/\/咳咳,开始讲API了\/\/\/\/========</p></li>
+
+<li><p>检查某对象是否存在某属性 object.hasOwnProperty(propname)方法检查对象是否有该属性<br>有返回true,无返回false</p></li>
+</ul></li>
+</ul></li>
+</ul></li>
+
 <li><p>18.3.22</p>
 
 <ul>
@@ -117,9 +229,17 @@
 <li>大于小于大于等于小于等于</li>
 </ul></li>
 <li>条件 and ||</li>
-<li>else if  &amp;&amp;  else</li>
+<li>else if  &amp;&amp;  else
+
+<ul>
+<li>return 直接返回 比较值,无需多创建 boo l变量</li>
 </ul></li>
-<li>switch 语句</li>
+</ul></li>
+<li>switch 语句
+
+<ul>
+<li>case不及时break会累积到break</li>
+</ul></li>
 </ul></li>
 
 <li><p>18.3.21 end at 183</p>
