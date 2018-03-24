@@ -57,7 +57,7 @@
 
   <article class="article">
     
-    <span class="article-duration">2 min read</span>
+    <span class="article-duration">3 min read</span>
     
 
     <h1 class="article-title">⭐️Tech#重学CSS_02</h1>
@@ -84,12 +84,167 @@
 估计也就是大概在两周之内学到那个部分吧<br>
 噶油</p>
 
-<h1 id="重点提点">重点提点</h1>
+<h1 id="大的方面-细节">大的方面 &amp; 细节</h1>
+
+<h3 id="大方面">大方面</h3>
 
 <ul>
-<li><p>CSS的垂直居中问题</p>
+<li>JavaScript基础</li>
+<li>JSON</li>
+<li>正则表达式</li>
+<li>面向对象</li>
+<li>map</li>
+</ul>
 
-<h1 id="日志">日志</h1></li>
+<h3 id="细节">细节</h3>
+
+<ul>
+<li>CSS的垂直居中问题</li>
+</ul>
+
+<h1 id="日志">日志</h1>
+
+<ul>
+<li><p>18.3.24</p>
+
+<ul>
+<li><p>map方法:迭代数组</p>
+
+<ul>
+<li><p>概念:map 方法会迭代数组中的每一个元素，并根据回调函数来处理每一个元素，最后返回一个新数组。注意，这个方法不会改变原始数组。</p>
+
+<pre><code class="language-javascript">//在我们的例子中，回调函数只有一个参数，即数组中元素的值 (val 参数) ，但其实，你的回调函数也可以支持多个参数，譬如：元素的索引index、原始数组arr。
+//使用 map 方法来为 oldArray 中的每一项增加3，并且在 newArray 中保存它们。 oldArray 不应该被改变。
+var oldArray = [1, 2, 3, 4, 5];
+// 只能在这一行下面写代码
+// 这里是每个在原数组上加3
+var newArray = oldArray.map(function(cal) {
+return cal + 3
+});
+// 这里是每个在原数组上乘4
+var timesFour = oldArray.map(function(val) {
+return val * 4;
+});
+</code></pre></li>
+
+<li><p>reduce</p></li>
+</ul></li>
+
+<li><p>回顾一下Object Oriented Coding</p>
+
+<ul>
+<li><p>普通创建对象</p>
+
+<pre><code class="language-JavaScript">var motorBike = {
+// 只能在这一行下面写代码
+&quot;wheels&quot;:4,
+&quot;engines&quot;:1,
+&quot;seats&quot;:6
+};
+</code></pre></li>
+
+<li><p>函数式创建对象<br>
+1.构造函数搞出来对象的类</p>
+
+<pre><code class="language-JavaScript">var Car = function() {
+this.wheels = 4;
+this.engines = 1;
+this.seats = 1;
+};
+</code></pre>
+
+<p>2.new 声明对象</p>
+
+<pre><code class="language-JavaScript">//记住：要使用 new 关键字 去调用构造函数。因为只有这样，Javascript才知道这是要去构造一个新 对象 ，并且把构造函数中的 this 指向这个新对象。
+var myCar = new Car();
+myCar.nickname = &quot;FxxK&quot;;
+</code></pre>
+
+<p>3.使用构造函数自定义参数(属性 或 字段)</p>
+
+<pre><code class="language-JavaScript">var Car = function(wheels,seats,engines) {
+//Change this constructor
+this.wheels = wheels;
+this.seats = seats;
+this.engines = engines;
+};
+//Try it out here
+var myCar = new Car(2,2,3);
+</code></pre>
+
+<p>4.私有属性 &amp; 私有方法</p>
+
+<pre><code class="language-JavaScript">var Bike = function() {
+// 只能在这一行下面写代码
+var Gear;
+this.getGear = function(){
+return Gear;
+};
+this.setGear = function(num){
+Gear = num;
+};
+};
+</code></pre>
+
+<p>5.目前没了,指日可待再说吧</p></li>
+</ul></li>
+
+<li><p>突然闯出一个正则表达式</p>
+
+<ul>
+<li>用途:正则表达式被用来根据某种匹配模式来寻找strings中的某些单词</li>
+<li>基本用法<br>
+/ 是这个正则表达式的头部<br>
+the 是我们想要匹配的模式<br>
+/ 是这个正则表达式的尾部<br>
+g 代表着 global(全局)，意味着返回所有的匹配而不止是第一个。<br>
+i 代表着忽略大小写，意思是当我们寻找匹配的字符串的时候忽略掉字母的大小写。<strong>给我的感觉,&lsquo;/&lsquo;的目的是辨认关键选择词汇</strong><br>
+<code>var expressionToGetSoftware = /software/gi;</code></li>
+
+<li><p>1.<strong>特殊类型:数字</strong>
+<br>特殊选择器中的一种就是数字选择器\d，意思是被用来获取一个字符串的数字。<br>在JavaScript中, 数字选择器类似于: /\d/g。<br>在选择器后面添加一个加号标记(+)，例如：/\d+/g，它允许这个正则表达式匹配一个或更多数字。<br>尾部的g是&rsquo;global&rsquo;的简写，意思是允许这个正则表达式 找到所有的匹配而不是仅仅找到第一个匹配。</p></li>
+
+<li><p>2.<strong>特殊类型:空白</strong><br>
+我们也可以使用正则表达式选择器 \s 来选择一个字符串中的空白。<br>
+空白字符有 &ldquo; &rdquo; (空格符)、\r (回车符)、\n (换行符)、\t (制表符) 和 \f (换页符)。<br>
+空白正则表达式类似于：<br>
+/\s+/g</p></li>
+
+<li><p>3.<strong>特殊类型:非</strong><br>
+你可以用正则表达式选择器的大写版本来转化任何匹配。<br>
+举个例子：\s 匹配任何空白字符，\S 匹配任何非空白字符。<br>用 /\S/g来选所有的非空字符<br><strong>这里为什么不是那个+号呢,前面为什么是呢,我很好奇</strong></p></li>
+
+<li><p>4.还没用到正则表达式呢就没了,做了一个老虎机,用的CodePen,在<a href="https://codepen.io/KesaubeEire/full/aYyLEX">老虎机</a></p></li>
+</ul></li>
+
+<li><p>for循环</p>
+
+<ul>
+<li>for(int i = 0; i &lt; rangetop; i ++)<br>
+{<br><br>
+}</li>
+</ul></li>
+
+<li><p>while循环</p>
+
+<ul>
+<li>while(condition)<br>
+{<br><br>
+}</li>
+</ul></li>
+
+<li><p>++一个sb错误又卡死了我</p></li>
+
+<li><p>Math.random( )</p>
+
+<ul>
+<li>生成 [0,1) 的小数:<br><code>Math.random( );</code></li>
+<li>生成 [0,n) 的整数:<br><code>Math.floor(Math.random( )* n );</code></li>
+<li>生成 [x,y) 的整数: <strong>日居然没有range()</strong><br>
+<code>Math.floor(Math.random( )* (Max - Min + 1))+Min;</code><br>
+<strong>我不理解为什么要 <em>加一</em> ,要笑死我了</strong></li>
+</ul></li>
+</ul></li>
 
 <li><p>18.3.23</p>
 
