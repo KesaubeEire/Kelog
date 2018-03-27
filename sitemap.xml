@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2018/03/27/w4d2/</loc>
+    <lastmod>2018-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2018/03/25/w3d7/</loc>
     <lastmod>2018-03-25T00:00:00+00:00</lastmod>
   </url>
@@ -224,7 +229,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-03-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -236,19 +241,19 @@
   
   <url>
     <loc>/categories/plain-text/</loc>
-    <lastmod>2018-03-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/plan/</loc>
-    <lastmod>2018-03-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-03-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -278,7 +283,7 @@
   
   <url>
     <loc>/tags/thinkmore/</loc>
-    <lastmod>2018-03-17T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
