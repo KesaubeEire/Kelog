@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Game_unity on Kesa-Kelog</title>
-    <link>/categories/game_unity/</link>
-    <description>Recent content in Game_unity on Kesa-Kelog</description>
+    <title>插件 on Kesa-Kelog</title>
+    <link>/categories/%E6%8F%92%E4%BB%B6/</link>
+    <description>Recent content in 插件 on Kesa-Kelog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 30 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/game_unity/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/%E6%8F%92%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -36,15 +36,6 @@ Begin!!!
 在需要时使用 transform.DoPlayForward();
 在需要倒放时使用 transform.DoPlayBackward();
 下面的注释更加详细  void Start() { //在start出 OriPos = panelTransform.localPosition; Tweener tweener = panelTransform.DOLocalMove(targetPos(V3), transferTime); tweener.Pause(); //设置不自动销毁 tweener.SetAutoKill(false); } public void Onclickk() { if (!isMove) { //只播放一次,且播放其身上的所有动画 // panelTransform.DOPlay(); //前放,不止一次,且播放其身上的所有动画 panelTransform.DOPlayForward(); isMove = !isMove; } else { // panelTransform.DOLocalMove(OriPos, transferTime); // 倒放 panelTransform.</description>
-    </item>
-    
-    <item>
-      <title>🎮Game#ERROR_AI</title>
-      <link>/2018/03/19/game-error-ai/</link>
-      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/03/19/game-error-ai/</guid>
-      <description>Log in GameMade  18.3.19  A:找美术资源  放弃像素风,转到low-poly  B:找UI资源  Sci Fi UI  C:找代码漏洞  找几个包,有fps的,提前告诉我,我下载好   18.3.21  A:建模主角  Almost Done 次日任务:完善建模主角,搞定assistant,争取搞一搞场景  B:找UI资源  Sci Fi UI 基本找齐,下一步是分出来 次日任务:整理好一版UI  C:程序  瞎设状态机 和B合作搞定了 一些基本的 assistant 操作 次日任务:搞定assistant的 上下浮动 转身 静止后左右瞎JB扫,尝试timeline   18.3.23  A:摸鱼  次日任务:停止摸鱼  B:基本做好UI  次日任务:完成dock,做进游戏,学习DoTween,把UI逻辑想好  C:基本搞定小助手  次日任务:搞定三种敌人的逻辑   18.3.27  A:摸索ProBulider  次日任务:继续摸索,得有点实际收货了  B:基本摸清Dotween  次日任务:完成UI的动画,设定物品和任务  C:处理逻辑单元  次日任务:  敌人的业务:  是否检测到玩家的接口 判定检测玩家的条件  约定距离内约定角度内(即视野范围)玩家出现 中枢被破坏之前检测到同类的死亡 中枢被破坏不算发现玩家了(更改)  检测到玩家后的接近\攻击函数 定点巡逻  玩家的业务:  破坏中枢 暗杀敌人 获得 物品?</description>
     </item>
     
   </channel>

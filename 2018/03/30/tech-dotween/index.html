@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.36.1" />
+
+
+<title>⭐️Tech#Ⓤ插件_DoTween - Kesa-Kelog</title>
+<meta property="og:title" content="⭐️Tech#Ⓤ插件_DoTween - Kesa-Kelog">
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/KesaubeEire">GitHub</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">⭐️Tech#Ⓤ插件_DoTween</h1>
+
+    
+    <span class="article-date">2018/03/30</span>
+    
+
+    <div class="article-content">
+      
+
+<!-- Font Awesome 的图标库 -->
+
+<p><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
+<!-- 引用 Bootstrap -->
+<link rel="stylesheet"href="//cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.min.css"/></p>
+
+<h1 id="写在前面">写在前面</h1>
+
+<p>P.S. Ⓤ在之后的所有文章中指代 Unity游戏引擎®<br />
+谨以此文开启我的知识Blog计划(包括Unity)<br />
+以后的所有值得记忆的知识全部都将以这种方式呈现<br />
+记录和整理是两回事,但是鉴于我的时间和作风,暂时碰不到整理</p>
+
+<p>所以以此来做每天的日志,分为两部分<br />
+按照之前前段学习的习惯<br />
+最开始是一个重点难点整理的一个地方,但是只是一个引子<br />
+<strong>(考虑加入文章内链接以方便快速到达)</strong><br />
+另一部分是日志,倒序安排<br />
+Begin!!!</p>
+
+<h1 id="重点难点">重点难点</h1>
+
+<h1 id="日志">日志</h1>
+
+<ul>
+<li><p>3.31.2018</p>
+
+<ul>
+<li><p>倒放</p>
+
+<ul>
+<li>倒放的改进<br />
+因为上一个效果重复创建Tweener对象,使用次数增多会影响性能<br />
+所以这里我们在start里创建对象,有且仅有一次<br />
+然后在开始之时 使用   <code>tweener.Pause();</code><br />
+在需要时使用         <code>transform.DoPlayForward();</code><br />
+在需要倒放时使用         <code>transform.DoPlayBackward();</code><br />
+下面的注释更加详细</li>
+</ul>
+
+<pre><code class="language-c#">void Start()
+     {
+       //在start出
+         OriPos = panelTransform.localPosition;
+         Tweener tweener = panelTransform.DOLocalMove(targetPos(V3), transferTime);
+         tweener.Pause();
+         //设置不自动销毁
+         tweener.SetAutoKill(false);
+     }
+     public void Onclickk()
+     {
+         if (!isMove)
+         {
+             //只播放一次,且播放其身上的所有动画
+ //            panelTransform.DOPlay();
+             //前放,不止一次,且播放其身上的所有动画
+             panelTransform.DOPlayForward();
+             isMove = !isMove;
+         }
+         else
+         {
+ //            panelTransform.DOLocalMove(OriPos, transferTime);
+             // 倒放
+             panelTransform.DOPlayBackwards();
+             isMove = !isMove;
+          }
+     }
+}
+</code></pre>
+
+<ul>
+<li><p>倒放的方式</p>
+
+<pre><code class="language-c#">//默认动画完成之后销毁
+//Tweener对象保存这个动画的信息,每次调用Do类型的方法都会床架你一个Tweener对象
+//这个对象是DoTween来管理的
+Tweener tweener = panelTransform.DOLocalMove(targetPos(V3), transferTime);
+//设置不自动销毁
+tweener.SetAutoKill(false);
+//下面是有需要的时候的调用倒放
+panelTransform.DOPlayBackwards();
+</code></pre></li>
+
+<li><p>啊哈</p></li>
+</ul></li>
+
+<li><p>简单的移动</p>
+
+<pre><code class="language-c#">// 让目标从当期位置动画到 0,0,0 的位置,时间为 1 s
+// 但是这里又是全局坐标
+panelTransform.DOMove(targetPos(V3), transferTime);
+// 局部坐标
+panelTransform.DOLocalMove(targetPos(V3), transferTime);
+</code></pre></li>
+
+<li><p>最简单的赋值 lambda表达式
+使用此比较麻烦,但是是原理,将 myValue 赋值给doTween做插值</p>
+
+<pre><code class="language-c#">using DG.Tweening;
+//----------------------
+public Vector3 myValue = new Vector3(0, 0, 0);
+public Vector3 targetValue = new Vector3(0, 0, 0);
+void Start()
+{
+    //通过插值变化某个值
+    //(赋值操作,目标值,时间)
+    DOTween.To(() =&gt; myValue, x =&gt; myValue = x, targetValue, 2f);
+    DOTween.To(() =&gt; myValue2, x =&gt; myValue2 = x, 10f, 2f);
+}
+void Update()
+{
+    taskPanelTransforms.localPosition = myValue;
+    if (Timer &amp;lt; 2)
+    {
+      Timer += Time.deltaTime;
+    }
+}
+</code></pre></li>
+
+<li><h2 id="算法">算法</h2>
+
+<p>-</p></li>
+</ul></li>
+</ul>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <math display="block">
+             <mi>M</mi>
+             <mi>o</mi>
+             <mi>d</mi>
+             <mi>e</mi>
+             <mi>s</mi>
+             <mi>t</mi>
+             <mi>y</mi>
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mi>a</mi>
+             <mi>l</mi>
+             <mi>w</mi>
+             <mi>a</mi>
+             <mi>y</mi>
+             <mi>s</mi>
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mi>b</mi>
+             <mi>e</mi>
+             <mi>l</mi>
+             <mi>o</mi>
+             <mi>n</mi>
+             <mi>g</mi>
+             <mi>s</mi>
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mi>t</mi>
+             <mi>o</mi>
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mi>t</mi>
+             <mi>h</mi>
+             <mi>e</mi>
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mspace width="thinmathspace" />
+             <mi>E</mi>
+             <mi>l</mi>
+             <mi>i</mi>
+             <mi>t</mi>
+             <mi>e</mi>
+             <mi>s</mi>
+           </math>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with Hugo</a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+  </body>
+</html>
+

@@ -32,7 +32,7 @@
     <item>
       <title>Game_unity</title>
       <link>/categories/game_unity/</link>
-      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/game_unity/</guid>
       <description></description>
@@ -41,7 +41,7 @@
     <item>
       <title>Plain Text</title>
       <link>/categories/plain-text/</link>
-      <pubDate>Wed, 28 Mar 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 31 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/plain-text/</guid>
       <description></description>
@@ -53,6 +53,15 @@
       <pubDate>Fri, 09 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>插件</title>
+      <link>/categories/%E6%8F%92%E4%BB%B6/</link>
+      <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/%E6%8F%92%E4%BB%B6/</guid>
       <description></description>
     </item>
     

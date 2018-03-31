@@ -6,10 +6,37 @@
     <description>Recent content in Tech on Kesa-Kelog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>⭐️Tech#Ⓤ插件_DoTween</title>
+      <link>/2018/03/30/tech-dotween/</link>
+      <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/03/30/tech-dotween/</guid>
+      <description>写在前面 P.S. Ⓤ在之后的所有文章中指代 Unity游戏引擎®
+谨以此文开启我的知识Blog计划(包括Unity)
+以后的所有值得记忆的知识全部都将以这种方式呈现
+记录和整理是两回事,但是鉴于我的时间和作风,暂时碰不到整理
+所以以此来做每天的日志,分为两部分
+按照之前前段学习的习惯
+最开始是一个重点难点整理的一个地方,但是只是一个引子
+(考虑加入文章内链接以方便快速到达)
+另一部分是日志,倒序安排
+Begin!!!
+重点难点 日志  3.31.2018
+ 倒放
+ 倒放的改进
+因为上一个效果重复创建Tweener对象,使用次数增多会影响性能
+所以这里我们在start里创建对象,有且仅有一次
+然后在开始之时 使用 tweener.Pause();
+在需要时使用 transform.DoPlayForward();
+在需要倒放时使用 transform.DoPlayBackward();
+下面的注释更加详细  void Start() { //在start出 OriPos = panelTransform.localPosition; Tweener tweener = panelTransform.DOLocalMove(targetPos(V3), transferTime); tweener.Pause(); //设置不自动销毁 tweener.SetAutoKill(false); } public void Onclickk() { if (!isMove) { //只播放一次,且播放其身上的所有动画 // panelTransform.DOPlay(); //前放,不止一次,且播放其身上的所有动画 panelTransform.DOPlayForward(); isMove = !isMove; } else { // panelTransform.DOLocalMove(OriPos, transferTime); // 倒放 panelTransform.</description>
+    </item>
     
     <item>
       <title>⭐️Tech#重学CSS_02</title>
