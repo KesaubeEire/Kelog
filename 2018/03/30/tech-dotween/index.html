@@ -97,6 +97,19 @@ Begin!!!</p>
 <li><p>3.31.2018</p>
 
 <ul>
+<li><p>动画的曲线\类型\循环的次数<br />
+参照<a href="http://robertpenner.com/easing/easing_demo.html">链接</a></p>
+
+<pre><code class="language-c#">Tweener tweener_1 = transform.DOLocalMoveX(0, Interval);
+tweener_1.SetEase(Ease.OutCirc);
+//动画曲线
+//曲线类型很多,具体可见: http://robertpenner.com/easing/easing_demo.html
+tweener_1.SetLoops(Times);
+//动画循环次数
+tweener_1.OnComplete(OnTweenComplete);
+//动画结束事件
+</code></pre></li>
+
 <li><p>从指定位置移动到当前位置</p>
 
 <pre><code class="language-c#">// 加上from方法以后表示从目标位置移动到当前位置
@@ -113,7 +126,7 @@ transform.DOMoveX(targetX, 1).From(true);
 所以这里我们在start里创建对象,有且仅有一次<br />
 然后在开始之时 使用   <code>tweener.Pause();</code><br />
 在需要时使用         <code>transform.DoPlayForward();</code><br />
-在需要倒放时使用         <code>transform.DoPlayBackward();</code><br />
+在需要倒放时使用      <code>transform.DoPlayBackward();</code><br />
 下面的注释更加详细</li>
 </ul>
 
@@ -284,6 +297,9 @@ void Update()
 
 
     
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
 
     
   </body>
