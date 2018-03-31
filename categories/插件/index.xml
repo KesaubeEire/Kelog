@@ -28,14 +28,15 @@
 另一部分是日志,倒序安排
 Begin!!!
 重点难点 日志  3.31.2018
- 倒放
+ 从指定位置移动到当前位置
+// 加上from方法以后表示从目标位置移动到当前位置 transform.DOMoveX(targetX, 1).From(); // from (true)是相对坐标移动,不加即绝对坐标移动 transform.DOMoveX(targetX, 1).From(true);  倒放
  倒放的改进
 因为上一个效果重复创建Tweener对象,使用次数增多会影响性能
 所以这里我们在start里创建对象,有且仅有一次
 然后在开始之时 使用 tweener.Pause();
 在需要时使用 transform.DoPlayForward();
 在需要倒放时使用 transform.DoPlayBackward();
-下面的注释更加详细  void Start() { //在start出 OriPos = panelTransform.localPosition; Tweener tweener = panelTransform.DOLocalMove(targetPos(V3), transferTime); tweener.Pause(); //设置不自动销毁 tweener.SetAutoKill(false); } public void Onclickk() { if (!isMove) { //只播放一次,且播放其身上的所有动画 // panelTransform.DOPlay(); //前放,不止一次,且播放其身上的所有动画 panelTransform.DOPlayForward(); isMove = !isMove; } else { // panelTransform.DOLocalMove(OriPos, transferTime); // 倒放 panelTransform.</description>
+下面的注释更加详细  void Start() { //在start出 OriPos = panelTransform.localPosition; Tweener tweener = panelTransform.DOLocalMove(targetPos(V3), transferTime); tweener.Pause(); //设置不自动销毁 tweener.SetAutoKill(false); } public void Onclickk() { if (!isMove) { //只播放一次,且播放其身上的所有动画 // panelTransform.DOPlay(); //前放,不止一次,且播放其身上的所有动画 panelTransform.</description>
     </item>
     
   </channel>

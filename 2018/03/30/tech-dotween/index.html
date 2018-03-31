@@ -97,6 +97,14 @@ Begin!!!</p>
 <li><p>3.31.2018</p>
 
 <ul>
+<li><p>从指定位置移动到当前位置</p>
+
+<pre><code class="language-c#">// 加上from方法以后表示从目标位置移动到当前位置
+transform.DOMoveX(targetX, 1).From();
+// from (true)是相对坐标移动,不加即绝对坐标移动
+transform.DOMoveX(targetX, 1).From(true);
+</code></pre></li>
+
 <li><p>倒放</p>
 
 <ul>
