@@ -17,7 +17,7 @@
       <pubDate>Sat, 31 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/03/31/w4d6-notimenoway/</guid>
-      <description>Plan    Events Plan Real Aim Progress     访学计划(密歇根大学) 60&amp;rsquo; 填表走手续 delay Un   安排生化公众号 30&amp;rsquo; 30&amp;rsquo; must Process   STEEL 60&amp;rsquo;  delay Process   ERROR 60&amp;rsquo;  delay Process   Python 60&amp;rsquo;  delay Process   HTML 60&amp;rsquo;  delay Process    HomeWork    Subjects Plan Real Aim Progress     生化作业 20&amp;rsquo; Real Aim ALmost   补充生化ppt 40&amp;rsquo; Real Aim Un   生化实验 60&amp;rsquo; Real Aim Progress   分化实验 60&amp;rsquo; Real Aim Done =&amp;gt;Next   大物实验 90&amp;rsquo; Real Aim Progress   毛概展示 30&amp;rsquo; Real Aim Progress    other things  毛概视频上心哟 下次毛概课坐前面,回答一些问题哟 生物化学-推送  推进有序 和彭嘉蓉商量周日的推送  srtp的报销事宜 thanks to JILong.</description>
+      <description>Plan    Events Plan Real Aim Progress     访学计划(密歇根大学) 60&amp;rsquo; 填表走手续 delay Un   安排生化公众号 30&amp;rsquo; 30&amp;rsquo; must Process   STEEL 60&amp;rsquo;  delay Process   ERROR 60&amp;rsquo;  delay Process   Python 60&amp;rsquo;  delay Process   HTML 60&amp;rsquo;  delay Process    HomeWork    Subjects Plan Real Aim Progress     生化作业 20&amp;rsquo; Real Aim ALmost   补充生化ppt 40&amp;rsquo; Real Aim Un   生化实验:改格式 60&amp;rsquo; Real Aim Progress   分化实验 60&amp;rsquo; Real Aim Done =&amp;gt;Next   大物实验 90&amp;rsquo; Real Aim Progress   毛概展示 30&amp;rsquo; Real Aim Progress    other things  毛概视频上心哟 下次毛概课坐前面,回答一些问题哟 生物化学-推送  推进有序 和彭嘉蓉商量周日的推送  srtp的报销事宜 thanks to JILong.</description>
     </item>
     
     <item>
@@ -85,18 +85,13 @@ Plan    Events Plan Real Aim Progress     访学计划(密歇根大学) 60&amp;r
 (考虑加入文章内链接以方便快速到达)
 另一部分是日志,倒序安排
 Begin!!!
-重点难点 日志  3.31.2018
- 动画的曲线\类型\循环的次数
+重点难点 日志  4.1.2018  可视化编辑:DoTweenAnimation(一个脚本,非常easy) 可视化路劲:DoTweenPath(一个脚本) 卧槽&amp;gt;&amp;gt;&amp;gt;  3.31.2018
+ 范围内随机摇动
+transform.DOShakePosition(DuringTime, shakeRange); 文本变化
+text.DOText(&amp;quot;想要显示的内容&amp;quot;, DuringTime); 动画的曲线\类型\循环的次数
 参照链接
-Tweener tweener_1 = transform.DOLocalMoveX(0, Interval); tweener_1.SetEase(Ease.OutCirc); //动画曲线 //曲线类型很多,具体可见: http://robertpenner.com/easing/easing_demo.html tweener_1.SetLoops(Times); //动画循环次数 tweener_1.OnComplete(OnTweenComplete); //动画结束事件  从指定位置移动到当前位置
-// 加上from方法以后表示从目标位置移动到当前位置 transform.DOMoveX(targetX, 1).From(); // from (true)是相对坐标移动,不加即绝对坐标移动 transform.DOMoveX(targetX, 1).From(true);  倒放
- 倒放的改进
-因为上一个效果重复创建Tweener对象,使用次数增多会影响性能
-所以这里我们在start里创建对象,有且仅有一次
-然后在开始之时 使用 tweener.Pause();
-在需要时使用 transform.DoPlayForward();
-在需要倒放时使用 transform.DoPlayBackward();
-下面的注释更加详细  void Start() { //在start出 OriPos = panelTransform.localPosition; Tweener tweener = panelTransform.</description>
+Tweener tweener_1 = transform.DOLocalMoveX(0, Interval); tweener_1.SetEase(Ease.OutCirc); //动画曲线 //曲线类型很多,具体可见: http://robertpenner.com/easing/easing_demo.html tweener_1.SetLoops(Times); //动画循环次数 tweener_1.OnComplete(OnTweenComplete); //动画结束事件 // 有一个666的做法 /// 可以一句话搞定 Tweener tweener_1 = transform .DOLocalMoveX(0, Interval) .SetEase(Ease.OutCirc) .SetLoops(Times) .OnComplete(OnTweenComplete);  从指定位置移动到当前位置
+// 加上from方法以后表示从目标位置移动到当前位置 transform.DOMoveX(targetX, 1).From(); // from (true)是相对坐标移动,不加即绝对坐标移动 transform.DOMoveX(targetX, 1).From(true);  倒放</description>
     </item>
     
     <item>

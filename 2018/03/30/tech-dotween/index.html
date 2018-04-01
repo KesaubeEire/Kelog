@@ -57,7 +57,7 @@
 
   <article class="article">
     
-    <span class="article-duration">1 min read</span>
+    <span class="article-duration">2 min read</span>
     
 
     <h1 class="article-title">⭐️Tech#Ⓤ插件_DoTween</h1>
@@ -94,9 +94,21 @@ Begin!!!</p>
 <h1 id="日志">日志</h1>
 
 <ul>
+<li>4.1.2018
+
+<ul>
+<li>可视化编辑:DoTweenAnimation(一个脚本,非常easy)</li>
+<li>可视化路劲:DoTweenPath(一个脚本) 卧槽&gt;&gt;&gt;</li>
+</ul></li>
+
 <li><p>3.31.2018</p>
 
 <ul>
+<li>范围内随机摇动<br />
+<code>transform.DOShakePosition(DuringTime, shakeRange);</code></li>
+<li>文本变化<br />
+<code>text.DOText(&quot;想要显示的内容&quot;, DuringTime);</code></li>
+
 <li><p>动画的曲线\类型\循环的次数<br />
 参照<a href="http://robertpenner.com/easing/easing_demo.html">链接</a></p>
 
@@ -108,6 +120,14 @@ tweener_1.SetLoops(Times);
 //动画循环次数
 tweener_1.OnComplete(OnTweenComplete);
 //动画结束事件
+// 有一个666的做法
+/// 可以一句话搞定
+Tweener tweener_1 =   
+transform  
+.DOLocalMoveX(0, Interval)      
+.SetEase(Ease.OutCirc)  
+.SetLoops(Times)
+.OnComplete(OnTweenComplete);
 </code></pre></li>
 
 <li><p>从指定位置移动到当前位置</p>
