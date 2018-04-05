@@ -6,10 +6,57 @@
     <description>Recent content on Kesa-Kelog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>W5D4#然后呢</title>
+      <link>/2018/04/05/w5d4/</link>
+      <pubDate>Thu, 05 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/04/05/w5d4/</guid>
+      <description>不正经的小插曲 当我正在索思醒来想做点什么的时候
+刚出去想先放水的我
+突然发现那对小情侣
+居然TM还在
+还在外面做诡异的事情
+哇塞我的心都,,,,,,哈哈
+结束后的感想 按照一个个的说吧:
+ 信息管理系统:没能精准配合答出自己满意的答案,但是对于这个结果如何我都会比较满意的,毕竟勾搭上了汪老师~ 游戏应该是可以的,但是至于到什么程度拿到几等奖,我自己心里还没数 这个凉的透透的,但是不知道能不能自己申报  结束后心情还是有些奇妙:
+ 碰到了赵航,看到他也十分奋进,有些感慨; 和那个天天在索思帮着辫子秀恩爱的小伙子终于打了招呼(虽然不是主动的); 对游戏的想法有了一些不切实际的妄想,但是依然还有,还有一些东西在心里  但是别因为这个荒废了其他的事情哟~一切还需要回到正轨
+整件事情告诉我,Unity还是一个自己必须要真诚面对的一个东西,赶紧练手赶紧学起来
+下面是我接下来到考试周(13周之前)的业余计划:
+ 学Unity,这是自己的主业,是自己区别于其他人最最最重要的Tag
+ 学Python,这是自己的下一个可以委托的地方,但是字节并不是很熟悉也并不是很有把握
+ 学外语,这是自己绝对需要也绝对应该面对的东西
+ 暂时不以HTML和CSS为主要技术栈,但是为了维护世界核平,FCC每日10个还是保底  Now,following is normal thing.
+Plan List    Events Plan Real Aim Progress     访学计划(密歇根大学) 60&amp;rsquo; 填表走手续 delay Un   Unity学习 180&amp;rsquo;  delay Process   ERROR_UI部分 60&amp;rsquo;  delay Process   Python 60&amp;rsquo;  delay Process   FCC 60&amp;rsquo;  delay Process   ERROR_美术风格和故事重构 60&amp;rsquo;  delay Process   托福日夜计划 120&amp;rsquo;  delay Process   健身:肩部 120&amp;rsquo;  delay Process    HomeWork    Subjects Plan Real Aim Progress     生化作业 20&amp;rsquo; Real Aim ALmost   补充生化ppt 40&amp;rsquo; Real Aim Un   生化实验:改格式 60&amp;rsquo; Real Aim Progress   分化实验 60&amp;rsquo; Real Aim Done =&amp;gt;Next   大物实验 90&amp;rsquo; Real Aim Progress   毛概展示 30&amp;rsquo; Real Aim Progress    other things  四月一号和伦浩说去不了那个班级挑战赛 打印生化作业 毛概视频上心哟 下次毛概课坐前面,回答一些问题哟 srtp的报销事宜 thanks to JILong.</description>
+    </item>
+    
+    <item>
+      <title>⭐️Tech#重学Web_03</title>
+      <link>/2018/04/05/tech-web-03/</link>
+      <pubDate>Thu, 05 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/04/05/tech-web-03/</guid>
+      <description> 不知不觉进入了这个JS的算法世界 相当的不知不觉了
+但是还是要继续做下去呀
+肯定是做不到一天十个的,应该是有一些难度的
+当然啦,我还是会坚持下去的
+噶油
+重点部分 日志 </description>
+    </item>
+    
+    <item>
+      <title>W5D3#JudgeDay</title>
+      <link>/2018/04/04/w5d3-judgeday/</link>
+      <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/04/04/w5d3-judgeday/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>W4D7#FREE_CODING</title>
@@ -416,7 +463,7 @@ Plan    Events Plan Real Aim Progress     FreeCodecamp 60&amp;rsquo;  must Done 
     </item>
     
     <item>
-      <title>⭐️Tech#重学CSS_02</title>
+      <title>⭐️Tech#重学Web_02</title>
       <link>/2018/03/16/tech-css-02/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
       
@@ -427,8 +474,8 @@ Plan    Events Plan Real Aim Progress     FreeCodecamp 60&amp;rsquo;  must Done 
 基于Tag或者自己往进填链接的方式
 估计也就是大概在两周之内学到那个部分吧
 噶油
-大的方面 &amp;amp; 细节 大方面  JavaScript基础 JSON 正则表达式 面向对象 map  细节  CSS的垂直居中问题  日志  18.3.24
- map方法:迭代数组
+大的方面 &amp;amp; 细节 大方面  JavaScript基础 JSON 正则表达式 面向对象 数组对象的一些函数(map\reduce\filter\sort)  细节  CSS的垂直居中问题  日志  18.4.5-时隔多日:数组对象的方法
+ map方法:迭代数组处理每一个(遍历)
  概念:map 方法会迭代数组中的每一个元素，并根据回调函数来处理每一个元素，最后返回一个新数组。注意，这个方法不会改变原始数组。
 //在我们的例子中，回调函数只有一个参数，即数组中元素的值 (val 参数) ，但其实，你的回调函数也可以支持多个参数，譬如：元素的索引index、原始数组arr。 //使用 map 方法来为 oldArray 中的每一项增加3，并且在 newArray 中保存它们。 oldArray 不应该被改变。 var oldArray = [1, 2, 3, 4, 5]; // 只能在这一行下面写代码 // 这里是每个在原数组上加3 var newArray = oldArray.map(function(cal) { return cal + 3 }); // 这里是每个在原数组上乘4 var timesFour = oldArray.</description>
     </item>
@@ -569,7 +616,7 @@ Hard to describe the feeling of the struggling
     </item>
     
     <item>
-      <title>⭐️Tech#重学CSS_01</title>
+      <title>⭐️Tech#重学Web_01</title>
       <link>/2018/03/12/tech-css/</link>
       <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
       

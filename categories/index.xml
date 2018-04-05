@@ -21,15 +21,6 @@
     </item>
     
     <item>
-      <title>Css</title>
-      <link>/categories/css/</link>
-      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/css/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Game_unity</title>
       <link>/categories/game_unity/</link>
       <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
@@ -41,7 +32,7 @@
     <item>
       <title>Plain Text</title>
       <link>/categories/plain-text/</link>
-      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 05 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/plain-text/</guid>
       <description></description>
@@ -53,6 +44,15 @@
       <pubDate>Fri, 09 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web</title>
+      <link>/categories/web/</link>
+      <pubDate>Thu, 05 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/web/</guid>
       <description></description>
     </item>
     

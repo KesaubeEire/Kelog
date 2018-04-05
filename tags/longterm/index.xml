@@ -6,10 +6,24 @@
     <description>Recent content in Longterm on Kesa-Kelog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/longterm/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>⭐️Tech#重学Web_03</title>
+      <link>/2018/04/05/tech-web-03/</link>
+      <pubDate>Thu, 05 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/04/05/tech-web-03/</guid>
+      <description> 不知不觉进入了这个JS的算法世界 相当的不知不觉了
+但是还是要继续做下去呀
+肯定是做不到一天十个的,应该是有一些难度的
+当然啦,我还是会坚持下去的
+噶油
+重点部分 日志 </description>
+    </item>
     
     <item>
       <title>⭐️Tech#Ⓤ插件_DoTween</title>
@@ -46,7 +60,7 @@ Tweener tweener_1 = transform.DOLocalMoveX(0, Interval); tweener_1.SetEase(Ease.
     </item>
     
     <item>
-      <title>⭐️Tech#重学CSS_02</title>
+      <title>⭐️Tech#重学Web_02</title>
       <link>/2018/03/16/tech-css-02/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
       
@@ -57,14 +71,14 @@ Tweener tweener_1 = transform.DOLocalMoveX(0, Interval); tweener_1.SetEase(Ease.
 基于Tag或者自己往进填链接的方式
 估计也就是大概在两周之内学到那个部分吧
 噶油
-大的方面 &amp;amp; 细节 大方面  JavaScript基础 JSON 正则表达式 面向对象 map  细节  CSS的垂直居中问题  日志  18.3.24
- map方法:迭代数组
+大的方面 &amp;amp; 细节 大方面  JavaScript基础 JSON 正则表达式 面向对象 数组对象的一些函数(map\reduce\filter\sort)  细节  CSS的垂直居中问题  日志  18.4.5-时隔多日:数组对象的方法
+ map方法:迭代数组处理每一个(遍历)
  概念:map 方法会迭代数组中的每一个元素，并根据回调函数来处理每一个元素，最后返回一个新数组。注意，这个方法不会改变原始数组。
 //在我们的例子中，回调函数只有一个参数，即数组中元素的值 (val 参数) ，但其实，你的回调函数也可以支持多个参数，譬如：元素的索引index、原始数组arr。 //使用 map 方法来为 oldArray 中的每一项增加3，并且在 newArray 中保存它们。 oldArray 不应该被改变。 var oldArray = [1, 2, 3, 4, 5]; // 只能在这一行下面写代码 // 这里是每个在原数组上加3 var newArray = oldArray.map(function(cal) { return cal + 3 }); // 这里是每个在原数组上乘4 var timesFour = oldArray.</description>
     </item>
     
     <item>
-      <title>⭐️Tech#重学CSS_01</title>
+      <title>⭐️Tech#重学Web_01</title>
       <link>/2018/03/12/tech-css/</link>
       <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
       

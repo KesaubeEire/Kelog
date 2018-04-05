@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on Kesa-Kelog</title>
+    <link>/categories/web/</link>
+    <description>Recent content in Web on Kesa-Kelog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>⭐️Tech#重学Web_03</title>
+      <link>/2018/04/05/tech-web-03/</link>
+      <pubDate>Thu, 05 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/04/05/tech-web-03/</guid>
+      <description> 不知不觉进入了这个JS的算法世界 相当的不知不觉了
+但是还是要继续做下去呀
+肯定是做不到一天十个的,应该是有一些难度的
+当然啦,我还是会坚持下去的
+噶油
+重点部分 日志 </description>
+    </item>
+    
+    <item>
+      <title>⭐️Tech#重学Web_02</title>
+      <link>/2018/03/16/tech-css-02/</link>
+      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/03/16/tech-css-02/</guid>
+      <description>写在前面 目前没有想好多长时间换一次这个版面
+大概是一周新开一个CSS的网页吧
+那么我就得赶快搞出来咯
+基于Tag或者自己往进填链接的方式
+估计也就是大概在两周之内学到那个部分吧
+噶油
+大的方面 &amp;amp; 细节 大方面  JavaScript基础 JSON 正则表达式 面向对象 数组对象的一些函数(map\reduce\filter\sort)  细节  CSS的垂直居中问题  日志  18.4.5-时隔多日:数组对象的方法
+ map方法:迭代数组处理每一个(遍历)
+ 概念:map 方法会迭代数组中的每一个元素，并根据回调函数来处理每一个元素，最后返回一个新数组。注意，这个方法不会改变原始数组。
+//在我们的例子中，回调函数只有一个参数，即数组中元素的值 (val 参数) ，但其实，你的回调函数也可以支持多个参数，譬如：元素的索引index、原始数组arr。 //使用 map 方法来为 oldArray 中的每一项增加3，并且在 newArray 中保存它们。 oldArray 不应该被改变。 var oldArray = [1, 2, 3, 4, 5]; // 只能在这一行下面写代码 // 这里是每个在原数组上加3 var newArray = oldArray.map(function(cal) { return cal + 3 }); // 这里是每个在原数组上乘4 var timesFour = oldArray.</description>
+    </item>
+    
+    <item>
+      <title>⭐️Tech#重学Web_01</title>
+      <link>/2018/03/12/tech-css/</link>
+      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/03/12/tech-css/</guid>
+      <description>飞到日志部分
+补充 因为学的东西越来越多了
+所以不得已学着以往所有的Bloger一样
+分开篇章
+但是现在还是没有做好侧边栏
+所以可能目前想看到不是那么容易
+写在前面 重学系列第三弹
+哈哈挖坑好多啊
+我也不知道为什么这么喜欢挖坑咯
+大概是因为我喜欢倒腾着学习形式的变化吧
+从一开始的额word总结,到MindNode
+再到网页总结方式
+越来越多的方式总有一个目的
+我想记录
+哈哈还是表现欲 &amp;amp; 记录欲的结合呢
+加油啦Kesa!
+重点  jQuery 的玩法和 Animate的动画 Font Awesome 这个方便的图标库 Bootstrap 的 btn 属性 和 颜色相关的几个 class值 记一个 css 样式优先级的顺序  最弱: 最上面个的 css next: 往后的 css ,若 class 均在同一个对象中出现(与放置顺序无关),越往后的会覆盖掉前面的 next: id id 永远比 class 优先级高 next: 行内 style , 这个比前两者都高  &amp;lt;style&amp;gt; body { background-color: black; font-family: Monospace; color: green; } .</description>
+    </item>
+    
+  </channel>
+</rss>
