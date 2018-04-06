@@ -19,6 +19,11 @@
 
 
 
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
 <link rel="stylesheet" href="/css/fonts.css" media="all">
 <link rel="stylesheet" href="/css/main.css" media="all">
 
@@ -64,6 +69,12 @@
     <div class="article-content">
       
 
+<!-- Font Awesome 的图标库 -->
+
+<p><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
+<!-- 引用 Bootstrap -->
+<link rel="stylesheet"href="//cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.min.css"/></p>
+
 <h1 id="不知不觉进入了这个js的算法世界">不知不觉进入了这个JS的算法世界</h1>
 
 <p>相当的不知不觉了<br />
@@ -75,6 +86,67 @@
 <h1 id="重点部分">重点部分</h1>
 
 <h1 id="日志">日志</h1>
+
+<ul>
+<li><p>18.4.5</p>
+
+<ul>
+<li><p>Reverse a String<br />
+翻转字符串<br />
+先把字符串转化成数组，<br />
+再借助数组的reverse方法翻转数组顺序，最后把数组转化成字符串。<br />
+你的结果必须得是一个字符串</p>
+
+<pre><code class="language-js">function reverseString(str) {
+// 请把你的代码写在这里
+var array = \[];
+for(var i = 0;i&amp;lt;str.length;i++)
+{
+array.push(str[i]);
+}
+array.reverse();
+str = array.join('');
+return str;
+}
+</code></pre></li>
+
+<li><p>Factorialize a Number<br />
+计算一个整数的阶乘<br />
+如果用字母n来代表一个整数，阶乘代表着所有小于或等于n的整数的乘积。<br />
+阶乘通常简写成 n!<br />
+例如: 5! = 1 * 2 * 3 * 4 * 5 = 120</p>
+
+<pre><code class="language-js">function factorialize(num) {
+// 请把你的代码写在这里
+var res = 1;
+for (var i = 1;i&lt;=num;i++){
+res *= i;
+}
+num = res;
+return num;
+}
+</code></pre></li>
+
+<li><p>Check for Palindromes<br />
+检查回文字符串<br />
+如果给定的字符串是回文，返回true，反之，返回false。<br />
+如果一个字符串忽略标点符号、大小写和空格，正着读和反着读一模一样，那么这个字符串就是palindrome(回文)。<br />
+注意你需要去掉字符串多余的标点符号和空格，然后把字符串转化成小写来验证此字符串是否为回文。<br />
+函数参数的值可以为&rdquo;racecar&rdquo;，&rdquo;RaceCar&rdquo;和&rdquo;race CAR&rdquo;。
+```js
+//挺难的,需要回忆一下正则表达式,Tom~
+for (var i = 0; i &lt; str.length; i++) {
+if (str[i] == str[str.length -1 -i])
+{</p></li>
+</ul>
+
+<p>}
+  else {
+    return false;
+  }
+}
+```</p></li>
+</ul>
 
     </div>
   </article>
@@ -145,7 +217,22 @@
     </div>
     
 
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
     
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
 
     
   </body>

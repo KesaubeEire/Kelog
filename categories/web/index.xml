@@ -17,12 +17,23 @@
       <pubDate>Thu, 05 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/04/05/tech-web-03/</guid>
-      <description> 不知不觉进入了这个JS的算法世界 相当的不知不觉了
+      <description>不知不觉进入了这个JS的算法世界 相当的不知不觉了
 但是还是要继续做下去呀
 肯定是做不到一天十个的,应该是有一些难度的
 当然啦,我还是会坚持下去的
 噶油
-重点部分 日志 </description>
+重点部分 日志  18.4.5
+ Reverse a String
+翻转字符串
+先把字符串转化成数组，
+再借助数组的reverse方法翻转数组顺序，最后把数组转化成字符串。
+你的结果必须得是一个字符串
+function reverseString(str) { // 请把你的代码写在这里 var array = \[]; for(var i = 0;i&amp;amp;lt;str.length;i++) { array.push(str[i]); } array.reverse(); str = array.join(&#39;&#39;); return str; }  Factorialize a Number
+计算一个整数的阶乘
+如果用字母n来代表一个整数，阶乘代表着所有小于或等于n的整数的乘积。
+阶乘通常简写成 n!
+例如: 5! = 1 * 2 * 3 * 4 * 5 = 120
+function factorialize(num) { // 请把你的代码写在这里 var res = 1; for (var i = 1;i&amp;lt;=num;i++){ res *= i; } num = res; return num; }  Check for Palindromes</description>
     </item>
     
     <item>

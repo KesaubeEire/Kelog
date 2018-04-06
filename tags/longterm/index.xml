@@ -17,12 +17,33 @@
       <pubDate>Thu, 05 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/04/05/tech-web-03/</guid>
-      <description> 不知不觉进入了这个JS的算法世界 相当的不知不觉了
+      <description>不知不觉进入了这个JS的算法世界 相当的不知不觉了
 但是还是要继续做下去呀
 肯定是做不到一天十个的,应该是有一些难度的
 当然啦,我还是会坚持下去的
 噶油
-重点部分 日志 </description>
+重点部分 日志  18.4.5
+ Reverse a String
+翻转字符串
+先把字符串转化成数组，
+再借助数组的reverse方法翻转数组顺序，最后把数组转化成字符串。
+你的结果必须得是一个字符串
+function reverseString(str) { // 请把你的代码写在这里 var array = \[]; for(var i = 0;i&amp;amp;lt;str.length;i++) { array.push(str[i]); } array.reverse(); str = array.join(&#39;&#39;); return str; }  Factorialize a Number
+计算一个整数的阶乘
+如果用字母n来代表一个整数，阶乘代表着所有小于或等于n的整数的乘积。
+阶乘通常简写成 n!
+例如: 5! = 1 * 2 * 3 * 4 * 5 = 120
+function factorialize(num) { // 请把你的代码写在这里 var res = 1; for (var i = 1;i&amp;lt;=num;i++){ res *= i; } num = res; return num; }  Check for Palindromes</description>
+    </item>
+    
+    <item>
+      <title>📚TOFUL#Vocabulary</title>
+      <link>/2018/04/05/toful-vocabulary/</link>
+      <pubDate>Thu, 05 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/04/05/toful-vocabulary/</guid>
+      <description>Plan According to a table of 词以累计日期安排表 I now will be led to learn words by 词以累计 for at least 42 days Begin!
+Plan table .tg {border-collapse:collapse;border-spacing:0;} .tg td{font-family:Arial, sans-serif;font-size:8px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;} .tg th{font-family:Arial, sans-serif;font-size:8px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;} .tg .tg-c3ow{font-size:16px;border-color:inherit;text-align:center;vertical-align:top} .tg .tg-us36{border-color:inherit;vertical-align:top}   ﻿第一天 第二天 第三天 第四天   地理 地质 气象 动物学 军事 法律 医学 化学 环境 教育 天文 经济 农业 考古学 人物 人类学 生物学 社会学 数学 物理 艺术 音乐   地理 地质 气象 动物学 军事 地理 地质 气象 动物学 军事 法律 医学 化学 环境 教育 天文 地理 地质 气象 动物学 军事    法律 医学 化学 环境 教育 天文 经济 农业 考古学 人物 经济 农业 考古学 人物      人类学 生物学 社会学 数学 物理 艺术 音乐   第五天 第六天 第七天 第八天   语言学 政治 植物学 自然 宗教 品质 事务 现实1   法律 医学 化学 环境 教育 天文 经济 农业 考古学 人物 人类学 生物学 社会学 数学 物理 艺术 音乐 地理 地质 气象 动物学 军事   人类学 生物学 社会学 数学 物理 艺术 音乐 语言学 政治 植物学 自然 宗教 品质 语言学 政治 植物学 自然 宗教   语言学 政治 植物学 自然 宗教 品质 事务 事务      现实1   第九天 第十天 第十一天 第十二天   现实2 心理 行为1 行为2 语言 属性1   法律 医学 化学 环境 教育 天文 经济 农业 考古学 人物 人类学 生物学 社会学 数学 物理 艺术 音乐 语言学 政治 植物学 自然 宗教   品质 事务 现实1 现实2 心理   现实1 现实2 心理 行为1 行为2   现实2 心理 行为1 行为2 语言 属性1   第十三天 第十四天 第十五天 第十六天   属性2 状态 地理 地质 气象 动物学 军事 法律 医学 化学 环境 教育 天文   品质 事务 现实1 现实2 心理   行为1 行为2 语言 属性1 属性2   语言 属性1 属性2 状态    属性2 状态     第十七天 第十八天 第十九天 第二十天   经济 农业 考古学 人物 人类学 生物学 社会学 数学 物理 艺术 音乐 语言学 政治 植物学 自然 宗教 品质   行为1 行为2 语言 属性1 属性2   状态      第二十一天 第二十二天 第二十三天 第二十四天   事务 现实1 现实2 心理 行为1   状态      第二十五天 第二十六天 第二十七天 第二十八天   行为2 语言 属性1 属性2 状态   第二十九天 第三十天 第三十一天 第三十二天   地理 地质 气象 动物学 军事 法律 医学 化学 环境 教育 天文 经济 农业 考古学 人物 人类学 生物学 社会学 数学 物理 艺术 音乐   现实1 现实2 心理 行为1 行为2   第三十三天 第三十四天 第三十五天 第三十六天   语言学 政治 植物学 自然 宗教 品质 事务 现实1   语言 属性1 属性2 状态    第三十七天 第三十八天 第三十九天 第四十天   现实2 心理 行为1 行为2 语言 属性1   第四十一天 第四十二天     属性2 状态</description>
     </item>
     
     <item>
@@ -56,7 +77,7 @@ Tweener tweener_1 = transform.DOLocalMoveX(0, Interval); tweener_1.SetEase(Ease.
       <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/03/19/game-error-ai/</guid>
-      <description>Log in GameMade  18.3.19  A:找美术资源  放弃像素风,转到low-poly  B:找UI资源  Sci Fi UI  C:找代码漏洞  找几个包,有fps的,提前告诉我,我下载好   18.3.21  A:建模主角  Almost Done 次日任务:完善建模主角,搞定assistant,争取搞一搞场景  B:找UI资源  Sci Fi UI 基本找齐,下一步是分出来 次日任务:整理好一版UI  C:程序  瞎设状态机 和B合作搞定了 一些基本的 assistant 操作 次日任务:搞定assistant的 上下浮动 转身 静止后左右瞎JB扫,尝试timeline   18.3.23  A:摸鱼  次日任务:停止摸鱼  B:基本做好UI  次日任务:完成dock,做进游戏,学习DoTween,把UI逻辑想好  C:基本搞定小助手  次日任务:搞定三种敌人的逻辑   18.3.27  A:摸索ProBulider  次日任务:继续摸索,得有点实际收货了  B:基本摸清Dotween  次日任务:完成UI的动画,设定物品和任务  C:处理逻辑单元  次日任务:  敌人的业务:  是否检测到玩家的接口 判定检测玩家的条件  约定距离内约定角度内(即视野范围)玩家出现 中枢被破坏之前检测到同类的死亡 中枢被破坏不算发现玩家了(更改)  检测到玩家后的接近\攻击函数 定点巡逻  玩家的业务:  破坏中枢 暗杀敌人 获得 物品?</description>
+      <description>Game Journal after 校赛  18.4.6  BUGS:  巡逻机器人死亡之后出警告 &amp;ldquo;SetDestination&amp;rdquo; can only be called on an active agent that has been placed on a NavMesh. fps脚本注释在我这里打开为乱码(不明白) 狙击枪射击回复位置时间太长 射击后的抖动需要添加(就和被击中的抖动一样就行) Log日志中应更加详细:比如枪类击中物体应有提示    Log in GameMade  18.3.19  A:找美术资源  放弃像素风,转到low-poly  B:找UI资源  Sci Fi UI  C:找代码漏洞  找几个包,有fps的,提前告诉我,我下载好   18.3.21  A:建模主角  Almost Done 次日任务:完善建模主角,搞定assistant,争取搞一搞场景  B:找UI资源  Sci Fi UI 基本找齐,下一步是分出来 次日任务:整理好一版UI  C:程序  瞎设状态机 和B合作搞定了 一些基本的 assistant 操作 次日任务:搞定assistant的 上下浮动 转身 静止后左右瞎JB扫,尝试timeline   18.</description>
     </item>
     
     <item>
