@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Kesa-Kelog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>W8D1#你知道吗魏先</title>
+      <link>/2018/04/23/w8d1/</link>
+      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/04/23/w8d1/</guid>
+      <description>安排    Time Events Real Progress     9之前 搞定分化报告分析 must Almost   10之前 搞定分化报告预习 must Progress   11之前 搞定物理拉人 must Half   12之前 搞定生化二的分析 must un   7之前 和汪老师交流 Un    9之前 解决Error的效果问题 Un     杂项  护照 4.27 回复武纤雨关于尤克里里的事情 问汪老师怎么报销srtp  srtp的报销事宜 thanks to JILong.Wang  书 显示器 kindle? maybe a emmm, surprise? 网络教程?   改善网页  右侧边栏 CodePen  跳过了两个CodePen的实战,以后一定记得完成   等待国际处的工时</description>
+    </item>
     
     <item>
       <title>W7D6#对自己有点失望中的沉沦</title>
@@ -585,7 +594,7 @@ Plan    Events Plan Real Aim Progress     完全搞定三个项目的申请 60&a
       <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/03/19/game-error-ai/</guid>
-      <description>Game Journal after 校赛  18.4.21  素材:  声音:  BGM:3-5首 机器人动作声音:  飞碟:靠近后的嗡嗡声 机器人:   特效:  爆炸特效(敌人死亡) 球壳电流特效?? 飞船喷气特效     18.4.6  BUGS:  巡逻机器人死亡之后出警告 &amp;ldquo;SetDestination&amp;rdquo; can only be called on an active agent that has been placed on a NavMesh. fps脚本注释在我这里打开为乱码(不明白) 狙击枪射击回复位置时间太长 射击后的抖动需要添加(就和被击中的抖动一样就行) Log日志中应更加详细:比如枪类击中物体应有提示    Log in GameMade  18.3.19  A:找美术资源  放弃像素风,转到low-poly  B:找UI资源  Sci Fi UI  C:找代码漏洞  找几个包,有fps的,提前告诉我,我下载好   18.</description>
+      <description>Game Journal after 校赛  18.4.21  素材:  声音:  BGM:3-5首 ai报警音效 敌人报警音效 D 射击音效 D  激光 shotgun 狙击  机器人动作声音: D  飞碟:靠近后的嗡嗡声 机器人:射击 炮塔:射击   特效:D  爆炸特效(敌人死亡) D 球壳电流特效?? 飞船喷气特效 敌人发现给个提示的特效？  贴图:  火花 激光 D shotgun子弹    18.4.6  BUGS:  巡逻机器人死亡之后出警告 &amp;ldquo;SetDestination&amp;rdquo; can only be called on an active agent that has been placed on a NavMesh. fps脚本注释在我这里打开为乱码(不明白) 狙击枪射击回复位置时间太长 射击后的抖动需要添加(就和被击中的抖动一样就行) Log日志中应更加详细:比如枪类击中物体应有提示    Log in GameMade  18.</description>
     </item>
     
     <item>
