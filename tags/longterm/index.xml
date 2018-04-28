@@ -79,7 +79,7 @@ Tweener tweener_1 = transform.DOLocalMoveX(0, Interval); tweener_1.SetEase(Ease.
       <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/03/19/game-error-ai/</guid>
-      <description>Game Journal after 校赛  18.4.21  素材:  声音:  BGM:3-5首 ai报警音效 敌人报警音效 D 射击音效 D  激光 shotgun 狙击  机器人动作声音: D  飞碟:靠近后的嗡嗡声 机器人:射击 炮塔:射击   特效:D  爆炸特效(敌人死亡) D 球壳电流特效?? 飞船喷气特效 敌人发现给个提示的特效？  贴图:  火花 激光 D shotgun子弹    18.4.6  BUGS:  巡逻机器人死亡之后出警告 &amp;ldquo;SetDestination&amp;rdquo; can only be called on an active agent that has been placed on a NavMesh. fps脚本注释在我这里打开为乱码(不明白) 狙击枪射击回复位置时间太长 射击后的抖动需要添加(就和被击中的抖动一样就行) Log日志中应更加详细:比如枪类击中物体应有提示    Log in GameMade  18.</description>
+      <description>Game Journal after 校赛  18.4.21  素材:  声音:  BGM:3-5首 ai报警音效 敌人报警音效 D 射击音效 D  激光 shotgun 狙击  机器人动作声音: D  飞碟:靠近后的嗡嗡声 机器人:射击 炮塔:射击   特效:D  爆炸特效(敌人死亡) D 球壳电流特效?? 飞船喷气特效 敌人发现给个提示的特效？  贴图:  火花 D 激光 D shotgun子弹 D    18.4.6  BUGS:  巡逻机器人死亡之后出警告 &amp;ldquo;SetDestination&amp;rdquo; can only be called on an active agent that has been placed on a NavMesh.</description>
     </item>
     
     <item>
