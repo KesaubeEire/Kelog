@@ -6,10 +6,20 @@
     <description>Recent content in Game_unity on Kesa-Kelog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/game_unity/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>⭐️Tech#ⓊUnity预编译学习</title>
+      <link>/2018/04/28/tech-unity/</link>
+      <pubDate>Sat, 28 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/04/28/tech-unity/</guid>
+      <description> 很久没有写Tech文章了 赶紧的
+何为预编译命令(预处理命令) </description>
+    </item>
     
     <item>
       <title>⭐️Tech#Ⓤ插件_DoTween</title>
