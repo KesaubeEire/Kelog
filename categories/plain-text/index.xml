@@ -6,10 +6,51 @@
     <description>Recent content in Plain Text on Kesa-Kelog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/plain-text/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>W11D2#SB该干嘛干嘛</title>
+      <link>/2018/05/15/w11d2-sb/</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/15/w11d2-sb/</guid>
+      <description>不能再这么懒下去啦 大事:  拿护照 解冻资金 买航班 写你他妈的实验报告!!!  分化实验报告 * 2(再也以后他妈不用写了) 生化实验报告 大物实验报告  准备复习生物化学和那个什么几把毛概吧  小事:  还图书馆的书 跟进一下srtp的报销问题  Untiy(UGUI)技术知识总结 遇到一个特别特别操蛋的给所谓的Button和Toggle上一个检测鼠标悬浮的功能
+但是发现这个得改源码或者是用到了我不熟悉的Event的功能
+接下来碰到了好多好多有意思的领域
+下面是对即将来到的技术总结的一个Plan
+针对这个问题总结:  如何改Unity源码 如何新建一个继承自原码某类的一个类,修改原码的部分,并应用于Unity 如何用C#的扩展方法解决这个问题  即是三种思路:  改源码(不能多场地编辑,即不能用Git) 不改源码加子类(解决了不能用GIt的问题,但是,,,有点烦,得在Debug界面换脚本) 不改原码不加子类加一个带 this 的函数,真他妈有趣吖(貌似上面的麻烦事都没了)  然而以上都不是真正解决问题的官方途径,官方给了EventSystem,专门用于解决这个问题. 希望我,哎,抽时间解决一下这种SB问题吧.</description>
+    </item>
+    
+    <item>
+      <title>W11D1#都捡回来,捡回来</title>
+      <link>/2018/05/13/w11d1/</link>
+      <pubDate>Sun, 13 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/13/w11d1/</guid>
+      <description>回归,但不知是如何的回归 整个这几个星期被这个JB计算机设计大赛搞得要死
+不过感觉,还有更要命的东西在后面
+我艹咋办,,,航班还没买
+明天大事: - 拿护照 - 解冻资金 - 买航班 - 联系哪位张莫兰同学
+矛盾的人生和矛盾的誓言 没有止境的谎言和悔恨不正是自己的懦弱么
+正视这些吧
+然后Fuck it off the day!</description>
+    </item>
+    
+    <item>
+      <title>W10D1#不胜利,毋宁死</title>
+      <link>/2018/05/08/w10d1/</link>
+      <pubDate>Tue, 08 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/08/w10d1/</guid>
+      <description> 写一下故事的一些Log OVAC: 尊敬的宇航员: 恭喜你顺利抵达F638星球 现在你可以开始执行我们的任务: 调查这个星球上AI叛变攻击人类的原因 允许你一定程度上便宜行事 但是 要注意你的AI助手 毕竟这个地方AI发生过这种叛变 也许你的助手也会有些异常 谨慎
+飞船会在你下飞船之后前往太空轨道等待 完成任务后再联络
+MiniConsole: 助手: WASD活动 空格跳跃 这些想必您早就熟悉了
+助手: 按住shift同时移动可以加速 使用滚轮切换武器 希望您能记住
+Bug 音效还剩什么  激光 Done 受伤 Done 喘息(循环) Done - UI的切换下拉音效(真鸡儿多) 搞定  总Tab * 2 HideAll * 1 Log * 1   </description>
+    </item>
     
     <item>
       <title>W10D1#死亡,没什么可怕的!!!!!!!!!!</title>
@@ -52,13 +93,14 @@
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/05/03/w9d5-scriptsoferror/</guid>
-      <description>剧情 开始界面是一个，我们做好的low-poly里的星球在那旋转
+      <description> 剧情 开始界面是一个，我们做好的low-poly里的星球在那旋转
 有四个UI在转
 然后点了开始以后，我们一架飞机从，摄像机外飞进模型
 然后切场景，却让我们的第一幕的场景。
  第一幕  飞船降落在星球上。镜头切到飞船内。我们的主角能看到飞船屏幕上.指挥官留下的命令是调查，在这个星球上失事的飞船。 走出飞船，我的ai助手会转过身来，告诉我一些这个星球发生过的事情。原来这个星球是一个曾经，繁荣的星球，后来因为一些，原因，延安支援者，都走光了，只留下了一地的，建筑和守卫建筑的mm。不知经历了多久,这颗星球才终于被想起，于是，前上一个星期，一批知名学者来，这里，勘察。   希望签证能让我找回我自己吧 找回了自己
 希望毛概的成功让我感受新的自我吧 感受了新的自我
-浴火重生!!! Begin!!!</description>
+浴火重生!!! Begin!!!
+Steel-开搞  悬停在按钮上显示所处轨道 选择好之后执行 选择好之后保存语句  </description>
     </item>
     
     <item>
